@@ -17,16 +17,8 @@
     "plain_summary": "Uno studio che analizza 143 programmi per la creatività creati in vent'anni, spiegando come aiutano le persone a generare idee, provare alternative e collaborare.",
     "what_it_shows": "Fornisce le categorie pratiche per capire che tipo di strumento stiamo costruendo e come valutarne l'utilità reale per un designer.",
     "description": "Una panoramica completa su come gli strumenti digitali supportano il processo creativo. Gli autori catalogano 143 software dividendoli tra strumenti per esplorare idee, generare varianti, rifinire progetti o lavorare in gruppo.",
-    "tags": [
-      "Creativity Support Tools",
-      "HCI",
-      "taxonomy",
-      "interaction design"
-    ],
-    "typographic_operations": [
-      "esplorazione guidata di varianti formali",
-      "test rapido di alternative"
-    ],
+    "tags": "Creativity Support Tools, HCI, taxonomy, interaction design",
+    "typographic_operations": "esplorazione guidata di varianti formali, test rapido di alternative",
     "technical_stack": "Analisi sistematica della letteratura HCI su 143 software",
     "workflow_evidence": "Altissima: classificazione solida e verificata su decine di progetti reali.",
     "transferability": "Permette di inquadrare il prototipo web come strumento di supporto alla creatività e non come semplice giochino visivo.",
@@ -76,15 +68,8 @@
     "plain_summary": "Il testo cardine che dimostra che progettare e costruire un prototipo funzionante è un modo valido e rigoroso di fare ricerca scientifica.",
     "what_it_shows": "Legittima la creazione del prototipo web come cuore della tesi: l'artefatto stesso produce conoscenza nuova.",
     "description": "Gli autori spiegano che il designer non deve solo descrivere la realtà, ma costruire oggetti e software che mostrano 'come il mondo potrebbe essere'. Il prototipo diventa così una tesi tangibile, valutabile tramite processo, invenzione e rilevanza.",
-    "tags": [
-      "Research through Design",
-      "RtD",
-      "HCI methodology",
-      "prototipazione"
-    ],
-    "typographic_operations": [
-      "costruzione di software per verificare ipotesi sul comportamento visivo delle lettere"
-    ],
+    "tags": "Research through Design, RtD, HCI methodology, prototipazione",
+    "typographic_operations": "costruzione di software per verificare ipotesi sul comportamento visivo delle lettere",
     "technical_stack": "Metodologia della ricerca progettuale applicata all'interazione",
     "workflow_evidence": "Altissima: 4 criteri chiari per giudicare il valore di una ricerca basata su prototipi.",
     "transferability": "Fornisce la struttura logica per giustificare la parte pratica della tesi di fronte a una commissione accademica.",
@@ -134,16 +119,8 @@
     "plain_summary": "Un articolo fondamentale che spiega le tre regole d'oro per fare un buon programma creativo: facile per iniziare, potente per gli esperti, vario nei risultati.",
     "what_it_shows": "Offre i requisiti pratici per progettare l'interfaccia del sito: niente barriere all'ingresso, ma massima libertà espressiva.",
     "description": "Shneiderman introduce la celebre formula 'soglie basse, soffitti alti e pareti larghe'. Uno strumento deve permettere a chiunque di iniziare subito senza manuali, consentire a chi è esperto di creare cose complesse, e favorire risultati imprevisti e originali.",
-    "tags": [
-      "Ben Shneiderman",
-      "user interface",
-      "usabilità creativa",
-      "interazione"
-    ],
-    "typographic_operations": [
-      "esplorazione istantanea senza blocchi tecnici",
-      "cronologia fluida delle modifiche"
-    ],
+    "tags": "Ben Shneiderman, user interface, usabilità creativa, interazione",
+    "typographic_operations": "esplorazione istantanea senza blocchi tecnici, cronologia fluida delle modifiche",
     "technical_stack": "Principi di ergonomia visiva e interazione uomo-macchina",
     "workflow_evidence": "Alta: principi adottati universalmente sia nell'industria che nei laboratori universitari.",
     "transferability": "Griglia di controllo immediata per verificare se l'interfaccia del prototipo è troppo complicata o troppo banale.",
@@ -193,17 +170,8 @@
     "plain_summary": "Uno studio pratico che dimostra come l'occhio riconosca le lettere guardando prima di tutto gli spazi bianchi vuoti al loro interno, non le linee nere.",
     "what_it_shows": "Dimostra che quando deformiamo un carattere con un algoritmo, per mantenere la leggibilità dobbiamo proteggere i vuoti interni (controforme).",
     "description": "I designer di TypeTogether analizzano il peso delle controforme nella lettura attraverso diversi alfabeti. Misurando il rapporto tra bianco e nero, spiegano che la leggibilità dipende dall'equilibrio degli spazi vuoti, un principio fondamentale anche quando si disegnano assi variabili.",
-    "tags": [
-      "Veronika Burian",
-      "controforme",
-      "spazio negativo",
-      "leggibilità",
-      "ottica"
-    ],
-    "typographic_operations": [
-      "calibrazione del bianco interno",
-      "modulazione delle proporzioni tra aste e aperture"
-    ],
+    "tags": "Veronika Burian, controforme, spazio negativo, leggibilità, ottica",
+    "typographic_operations": "calibrazione del bianco interno, modulazione delle proporzioni tra aste e aperture",
     "technical_stack": "Test ottici comparativi su glifi digitali in Glyphs",
     "workflow_evidence": "Alta: misurazioni metriche precise su centinaia di caratteri a confronto.",
     "transferability": "Aiuta a stabilire la soglia oltre la quale una lettera smette di essere leggibile e diventa pura macchia astratta.",
@@ -255,18 +223,8 @@
     "plain_summary": "Un testo storico che spiega come la tipografia non sia un semplice contenitore trasparente, ma un'immagine autonoma che il lettore deve 'guardare' e non solo 'leggere'.",
     "what_it_shows": "Fornisce la mappa ideale per posizionare il lavoro: un asse continuo tra leggere un testo come contenuto o guardarlo come forma visiva pura.",
     "description": "Katherine McCoy presenta il diagramma che ha segnato la stagione decostruzionista americana di Cranbrook. Mettendo in croce due assi (Leggere vs Guardare, Testo vs Immagine), dimostra che la grafica può costringere il lettore a fermarsi sulla forma della lettera prima ancora di comprenderne il significato alfabetico.",
-    "tags": [
-      "Cranbrook",
-      "Katherine McCoy",
-      "decostruzione",
-      "leggere vs guardare",
-      "postmodernismo"
-    ],
-    "typographic_operations": [
-      "frammentazione delle righe",
-      "sovrapposizione di livelli",
-      "testo trattato come tessitura grafica"
-    ],
+    "tags": "Cranbrook, Katherine McCoy, decostruzione, leggere vs guardare, postmodernismo",
+    "typographic_operations": "frammentazione delle righe, sovrapposizione di livelli, testo trattato come tessitura grafica",
     "technical_stack": "Fotocomposizione analogica e primi computer grafici",
     "workflow_evidence": "Alta: saggio storico e diagramma analitico citato in tutti i manuali di grafica.",
     "transferability": "Giustifica teoricamente perché ha senso fare grafica e tipografia 'difficile' o volutamente poco leggibile.",
@@ -316,18 +274,8 @@
     "plain_summary": "Il manuale pratico più letto al mondo per capire come funzionano i caratteri tipografici, aggiornato con font variabili, schermi moderni e accessibilità.",
     "what_it_shows": "Fornisce la terminologia esatta e i punti di riferimento visivi per spiegare ogni modifica apportata alle lettere.",
     "description": "La nuova edizione aggiornata del testo base della didattica tipografica. Ellen Lupton divide la materia tra Lettera, Testo e Griglia, affrontando con chiarezza estrema sia i fondamenti classici sia le novità contemporanee come i caratteri variabili, il responsive web design e la tipografia per schermi interattivi.",
-    "tags": [
-      "Ellen Lupton",
-      "manuale",
-      "caratteri variabili",
-      "griglie",
-      "didattica tipografica"
-    ],
-    "typographic_operations": [
-      "anatomia della lettera",
-      "scale tipografiche",
-      "spaziatura responsiva"
-    ],
+    "tags": "Ellen Lupton, manuale, caratteri variabili, griglie, didattica tipografica",
+    "typographic_operations": "anatomia della lettera, scale tipografiche, spaziatura responsiva",
     "technical_stack": "Manuale enciclopedico di riferimento per il design contemporaneo",
     "workflow_evidence": "Altissima: centinaia di esempi pratici con analisi visive impeccabili.",
     "transferability": "Garantisce il vocabolario tecnico corretto per descrivere ogni componente del progetto di tesi.",
@@ -377,17 +325,8 @@
     "plain_summary": "Un sistema di intelligenza artificiale che deforma i nodi vettoriali delle lettere per farle assomigliare al loro significato, mantenendole comunque leggibili.",
     "what_it_shows": "Dimostra come l'AI possa manipolare direttamente curve vettoriali pulite invece di limitarsi a sputare immagini raster piene di pixel sgranati.",
     "description": "Presentato al SIGGRAPH 2023, questo modello usa Stable Diffusion non per fare disegni, ma per guidare l'ottimizzazione matematica delle curve Bézier di una lettera. Ad esempio, trasforma la curva di una 'C' nella coda di un gatto, rispettando il contrasto e le proporzioni tipografiche di partenza.",
-    "tags": [
-      "semantic typography",
-      "intelligenza artificiale",
-      "vettori",
-      "curve Bézier",
-      "SIGGRAPH"
-    ],
-    "typographic_operations": [
-      "deformazione vettoriale semantica",
-      "preservazione delle aste e delle controforme"
-    ],
+    "tags": "semantic typography, intelligenza artificiale, vettori, curve Bézier, SIGGRAPH",
+    "typographic_operations": "deformazione vettoriale semantica, preservazione delle aste e delle controforme",
     "technical_stack": "PyTorch, Stable Diffusion, diffvg (rendering vettoriale differenziabile)",
     "workflow_evidence": "Altissima: codice aperto su GitHub con dataset di verifica della leggibilità.",
     "transferability": "Mostra come automatizzare il confine tra lettera leggibile e illustrazione figurativa.",
@@ -441,17 +380,8 @@
     "plain_summary": "Un'interfaccia interattiva che aiuta i designer a fondere immagini e lettere per creare loghi espressivi usando l'intelligenza artificiale come assistente.",
     "what_it_shows": "Un esempio perfetto di come l'AI non debba sostituire il progettista, ma funzionare come partner di laboratorio controllabile tramite comandi chiari.",
     "description": "Pubblicato a CHI 2024, il sistema estrae tratti da un'immagine di riferimento e suggerisce come incastrarli nella struttura di una parola. Il designer controlla l'intensità della trasformazione tramite cursori, mantenendo piena voce in capitolo sull'equilibrio finale.",
-    "tags": [
-      "TypeDance",
-      "logotipi",
-      "co-creazione",
-      "interazione",
-      "interfacce AI"
-    ],
-    "typographic_operations": [
-      "fusione tra sagoma figurativa e asta tipografica",
-      "dosaggio della deformazione"
-    ],
+    "tags": "TypeDance, logotipi, co-creazione, interazione, interfacce AI",
+    "typographic_operations": "fusione tra sagoma figurativa e asta tipografica, dosaggio della deformazione",
     "technical_stack": "PyTorch, Stable Diffusion, FastAPI, interfaccia web frontend",
     "workflow_evidence": "Altissima: testato con designer professionisti con misurazioni qualitative e di gradimento.",
     "transferability": "Modello ideale di interfaccia utente: mostra come far dialogare slider semplici con modelli generativi complessi.",
@@ -505,18 +435,8 @@
     "plain_summary": "Un'architettura avanzata che usa i Transformer per generare caratteri vettoriali completi, imparando a posizionare curve e spigoli senza imperfezioni.",
     "what_it_shows": "Rappresenta il massimo livello tecnico nella generazione automatica di font: la rete 'capisce' l'armonia dell'intero alfabeto mentre disegna una singola curva.",
     "description": "Evoluzione dei modelli precedenti a CVPR 2023. Il modello tratta i contorni delle lettere come sequenze coordinate di comandi vettoriali (linee e curve Bézier), correggendo in automatico sbavature o angoli storti grazie a un modulo di auto-raffinamento.",
-    "tags": [
-      "DeepVecFont",
-      "Transformer",
-      "font vettoriali",
-      "curve Bézier",
-      "CVPR"
-    ],
-    "typographic_operations": [
-      "sintesi vettoriale autonoma",
-      "raccordo armonico degli angoli",
-      "interpolazione di stili"
-    ],
+    "tags": "DeepVecFont, Transformer, font vettoriali, curve Bézier, CVPR",
+    "typographic_operations": "sintesi vettoriale autonoma, raccordo armonico degli angoli, interpolazione di stili",
     "technical_stack": "PyTorch, Transformer, diffvg, pipeline vettoriale",
     "workflow_evidence": "Altissima: codice e modelli preaddestrati disponibili pubblicamente su GitHub.",
     "transferability": "Spiega matematicamente come un algoritmo può comprendere le relazioni visive tra le varie lettere di una famiglia.",
@@ -570,17 +490,8 @@
     "plain_summary": "Un sistema sviluppato da Microsoft che risolve il problema delle scritte storte o piene di errori nei generatori di immagini, usando un modello di testo che pianifica la posizione delle lettere.",
     "what_it_shows": "Dimostra che per far scrivere bene un'AI visiva serve un modello linguistico che decida dove vanno le parole prima di renderizzarle.",
     "description": "I modelli di diffusione sbagliano spesso l'ortografia nelle immagini. TextDiffuser-2 accoppia un modello linguistico (LLM) che calcola spaziatura, allineamento e testo esatto a livello di riga con un modello visivo che disegna lettere nitide e senza errori.",
-    "tags": [
-      "TextDiffuser",
-      "rendering del testo",
-      "impaginazione automatica",
-      "intelligenza artificiale"
-    ],
-    "typographic_operations": [
-      "pianificazione del layout tipografico",
-      "allineamento di riga",
-      "inpainting testuale"
-    ],
+    "tags": "TextDiffuser, rendering del testo, impaginazione automatica, intelligenza artificiale",
+    "typographic_operations": "pianificazione del layout tipografico, allineamento di riga, inpainting testuale",
     "technical_stack": "PyTorch, Hugging Face Transformers, Stable Diffusion, UniLM",
     "workflow_evidence": "Altissima: codice e pesi rilasciati pubblicamente da Microsoft.",
     "transferability": "Utile per capire come combinare ragionamento testuale e resa visiva nei software generativi.",
@@ -635,15 +546,8 @@
     "plain_summary": "Lo strumento che ha permesso di comandare l'AI visiva dandole una sagoma rigida di partenza (come il disegno nero di una lettera) da riempire senza sbordare.",
     "what_it_shows": "Rappresenta il ponte con cui i graphic designer hanno ripreso il controllo sull'AI, costringendola a rispettare contorni geometrici precisi.",
     "description": "ControlNet aggiunge vincoli geometrici (bordi, pose, mappe di profondità) a Stable Diffusion. Applicato alle lettere, consente di caricare un font nero su bianco e generare texture, materiali e paesaggi che mantengono intatta la silhouette della scritta.",
-    "tags": [
-      "ControlNet",
-      "vincoli geometrici",
-      "intelligenza artificiale",
-      "precisione visiva"
-    ],
-    "typographic_operations": [
-      "uso della sagoma alfabetica come maschera rigida per generare texture e volumi"
-    ],
+    "tags": "ControlNet, vincoli geometrici, intelligenza artificiale, precisione visiva",
+    "typographic_operations": "uso della sagoma alfabetica come maschera rigida per generare texture e volumi",
     "technical_stack": "PyTorch, Stable Diffusion, ComfyUI, elaborazione immagini",
     "workflow_evidence": "Altissima: milioni di utenti, codice aperto e documentazione vastissima.",
     "transferability": "Permette di creare composizioni tipografiche complesse mantenendo al 100% la riconoscibilità del testo.",
@@ -697,18 +601,8 @@
     "plain_summary": "L'uso pratico dei modelli di linguaggio (come Claude o GPT) per farsi scrivere al volo script in Python che automatizzano i calcoli noiosi sui file di caratteri.",
     "what_it_shows": "Dimostra che la vera forza dell'AI per un tipografo non è farsi disegnare la lettera, ma farsi scrivere il codice per velocizzare la bottega digitale.",
     "description": "Una pratica ormai comune tra i designer tecnici: invece di chiedere all'AI immagini di lettere, la si usa come assistente di programmazione per scrivere righe di codice con FontTools, correggere tabelle OpenType, calcolare la spaziatura o generare provini al volo.",
-    "tags": [
-      "LLM",
-      "script Python",
-      "FontTools",
-      "automazione di bottega",
-      "programmazione assistita"
-    ],
-    "typographic_operations": [
-      "scrittura di funzioni OpenType",
-      "calcolo matematico della spaziatura",
-      "esportazione batch"
-    ],
+    "tags": "LLM, script Python, FontTools, automazione di bottega, programmazione assistita",
+    "typographic_operations": "scrittura di funzioni OpenType, calcolo matematico della spaziatura, esportazione batch",
     "technical_stack": "Python, FontTools, modelli LLM, VS Code",
     "workflow_evidence": "Altissima: centinaia di discussioni, repository e script condivisi nella comunità tecnica.",
     "transferability": "Metodo direttamente impiegato per sviluppare parti del software e della tesi stessa.",
@@ -763,16 +657,8 @@
     "plain_summary": "Il libro che spiega come il software abbia inglobato tutti i vecchi strumenti del passato (pennelli, taglierini, piombo), trasformando il computer nel medium universale.",
     "what_it_shows": "Aiuta a capire che i programmi che usiamo per disegnare non sono neutri: le scelte di chi ha programmato Photoshop o Illustrator condizionano il modo in cui immaginiamo le cose.",
     "description": "Lev Manovich ricostruisce come i software grafici abbiano simulato le tecniche fisiche dei vecchi mestieri per poi fonderle insieme. La grafica contemporanea nasce proprio da questo incrocio: vettori, pixel, video e testo che convivono nello stesso spazio computazionale.",
-    "tags": [
-      "Lev Manovich",
-      "software studies",
-      "storia dei programmi grafici",
-      "media digitali"
-    ],
-    "typographic_operations": [
-      "ibridazione tra testo vettoriale",
-      "filtri raster ed effetti di animazione"
-    ],
+    "tags": "Lev Manovich, software studies, storia dei programmi grafici, media digitali",
+    "typographic_operations": "ibridazione tra testo vettoriale, filtri raster ed effetti di animazione",
     "technical_stack": "Storia dell'interfaccia grafica e dell'architettura dei software creativi",
     "workflow_evidence": "Altissima: ricostruzione storica meticolosa delle prime versioni dei programmi grafici moderni.",
     "transferability": "Base teorica indispensabile per spiegare perché cambiare o creare un software cambi anche il risultato visivo.",
@@ -822,18 +708,8 @@
     "plain_summary": "Un saggio brillante che dimostra come la programmazione non sia nata con i computer, ma con la scrittura stessa: le lettere sono sempre state istruzioni combinatorie.",
     "what_it_shows": "Crea il ponte concettuale tra comporre testo e scrivere codice: la tipografia è da sempre una forma di calcolo.",
     "description": "Cramer traccia una linea affascinante tra la poesia combinatoria, i giochi dadaisti e i moderni linguaggi di programmazione. Spiega che il codice informatico è prima di tutto testo scritto, e che ogni volta che manipoliamo lettere con regole precise stiamo facendo computazione.",
-    "tags": [
-      "Florian Cramer",
-      "codice come testo",
-      "combinatoria",
-      "poesia visiva",
-      "software libero"
-    ],
-    "typographic_operations": [
-      "permutazione di lettere",
-      "montaggio combinatorio",
-      "generazione di senso tramite regole"
-    ],
+    "tags": "Florian Cramer, codice come testo, combinatoria, poesia visiva, software libero",
+    "typographic_operations": "permutazione di lettere, montaggio combinatorio, generazione di senso tramite regole",
     "technical_stack": "Storia della programmazione e della letteratura combinatoria",
     "workflow_evidence": "Altissima: ricca analisi filologica di testi storici liberamente accessibile online.",
     "transferability": "Perfetto per dare spessore culturale all'idea di trattare i caratteri come variabili vive dentro un programma.",
@@ -883,18 +759,8 @@
     "plain_summary": "La storica presentazione in cui Muriel Cooper ha mostrato per la prima volta al mondo il testo che fluttua e si naviga in 3D, superando l'idea della pagina piatta.",
     "what_it_shows": "L'ispirazione visiva originaria per visualizzare il testo su schermi digitali: le scritte cambiano senso a seconda della distanza e dell'angolazione dell'utente.",
     "description": "Al TED5 del 1994, Muriel Cooper presentò i prototipi del suo laboratorio al MIT Media Lab: invece di replicare fogli di carta piatti su schermi piatti, i testi venivano disposti in uno spazio tridimensionale continuo. Muovendo la telecamera, il lettore si avvicina ai dettagli o si allontana per vedere la visione d'insieme.",
-    "tags": [
-      "Muriel Cooper",
-      "MIT Media Lab",
-      "tipografia 3D",
-      "spazio tridimensionale",
-      "pionieri"
-    ],
-    "typographic_operations": [
-      "zoom semantico",
-      "trasparenze dinamiche",
-      "testo navigabile nello spazio"
-    ],
+    "tags": "Muriel Cooper, MIT Media Lab, tipografia 3D, spazio tridimensionale, pionieri",
+    "typographic_operations": "zoom semantico, trasparenze dinamiche, testo navigabile nello spazio",
     "technical_stack": "Workstation Silicon Graphics, programmazione C, motori 3D sperimentali",
     "workflow_evidence": "Altissima: registrazione video della demo funzionante dal vivo conservata al MoMA.",
     "transferability": "Ispirazione diretta per le animazioni 3D in Three.js e per rompere la gabbia del foglio nel prototipo web.",
@@ -947,16 +813,8 @@
     "plain_summary": "Una riflessione pungente su come le macchine programmino chi le usa: se il designer non impara a 'giocare contro il programma', farà solo ciò che il software ha già deciso per lui.",
     "what_it_shows": "La motivazione filosofica per costruire i propri strumenti: uscire dai recinti preimpostati dai programmi commerciali.",
     "description": "Flusser definisce il concetto di 'apparato'. Il fotografo o il designer contemporaneo crede di essere libero, ma sta solo scegliendo tra le opzioni che un ingegnere ha inserito nel menù della macchina. L'unica vera libertà consiste nel forzare il programma, usandolo al contrario o hackerandolo per far emergere l'inaspettato.",
-    "tags": [
-      "Vilém Flusser",
-      "apparato",
-      "giocare contro la macchina",
-      "filosofia della tecnica"
-    ],
-    "typographic_operations": [
-      "forzatura dei parametri standard",
-      "ricerca dell'errore generativo"
-    ],
+    "tags": "Vilém Flusser, apparato, giocare contro la macchina, filosofia della tecnica",
+    "typographic_operations": "forzatura dei parametri standard, ricerca dell'errore generativo",
     "technical_stack": "Filosofia dei media ed epistemologia del progetto",
     "workflow_evidence": "Alta: un'argomentazione logica serrata diventata classica negli studi sui media.",
     "transferability": "Spiega perfettamente il motivo per cui vale la pena perdere tempo a programmare il proprio strumento invece di cliccare su Illustrator.",
@@ -1006,15 +864,8 @@
     "plain_summary": "La legge che ha stabilito che la forma delle lettere non è protetta da copyright, ma il file digitale del font sì, perché è considerato un vero e proprio programma per computer.",
     "what_it_shows": "Dimostra legalmente che quando usiamo un font sul computer non stiamo usando un disegno, ma stiamo eseguendo del software.",
     "description": "Una pietra miliare del diritto digitale. La normativa americana stabilisce che l'alfabeto appartiene all'umanità e il disegno di una lettera non si può brevettare come opera d'arte pura; tuttavia, le istruzioni matematiche scritte dentro un file binario (.otf o .ttf) sono a tutti gli effetti codice software protetto.",
-    "tags": [
-      "copyright",
-      "legge",
-      "font software",
-      "proprietà intellettuale"
-    ],
-    "typographic_operations": [
-      "distinzione netta tra segno visivo e istruzioni binarie del file"
-    ],
+    "tags": "copyright, legge, font software, proprietà intellettuale",
+    "typographic_operations": "distinzione netta tra segno visivo e istruzioni binarie del file",
     "technical_stack": "Normativa giuridica sul diritto d'autore del software",
     "workflow_evidence": "Altissima: regolamento statale ufficiale e vincolante.",
     "transferability": "Argomento fondamentale per dimostrare che chi fa caratteri digitali scrive software a tutti gli effetti.",
@@ -1064,17 +915,8 @@
     "plain_summary": "Le regole mondiali su come rendere i siti web leggibili per tutti, che impongono contrasti minimi e spaziature fisse entrando spesso in conflitto con la grafica sperimentale.",
     "what_it_shows": "Fornisce i parametri oggettivi per misurare quando una sperimentazione grafica supera il limite e diventa inaccessibile per le persone con disabilità visive.",
     "description": "Le linee guida ufficiali del web definiscono quanto deve essere leggibile un testo: contrasto minimo di 4.5:1 tra testo e sfondo, possibilità di ingrandire senza rompere l'impaginazione e gestione dello spazio tra lettere. Queste regole si scontrano con chi vuole nascondere, muovere o rendere ambiguo il testo.",
-    "tags": [
-      "WCAG",
-      "accessibilità web",
-      "contrasto visivo",
-      "etica",
-      "standard"
-    ],
-    "typographic_operations": [
-      "misura numerica del contrasto luce/ombra",
-      "test di ingrandimento e reflow"
-    ],
+    "tags": "WCAG, accessibilità web, contrasto visivo, etica, standard",
+    "typographic_operations": "misura numerica del contrasto luce/ombra, test di ingrandimento e reflow",
     "technical_stack": "Standard normativo W3C per i browser",
     "workflow_evidence": "Altissima: legge ufficiale recepita dall'Unione Europea per i servizi digitali.",
     "transferability": "Indispensabile per progettare un selettore nel prototipo che permetta di passare dall'estetica sperimentale a una modalità accessibile a norma.",
@@ -1127,17 +969,8 @@
     "plain_summary": "La storica lite tra Massimo Vignelli, paladino della pulizia e dell'ordine, e David Carson, che sosteneva che la grafica pulita fosse noiosa e che un testo confuso potesse comunicare più emozioni.",
     "what_it_shows": "Dimostra che la discussione sulla leggibilità non è una questione tecnica, ma uno scontro culturale che si ripete a ogni cambio generazionale.",
     "description": "Il più celebre dibattito della grafica moderna. Da una parte Vignelli che accusava Carson di fare 'spazzatura illegibile e decadenza morale'; dall'altra Carson che rispondeva che la leggibilità assoluta non serve a nulla se il messaggio non trasmette emozione a chi guarda.",
-    "tags": [
-      "Carson",
-      "Vignelli",
-      "leggibilità",
-      "scontro generazionale",
-      "modernismo vs grunge"
-    ],
-    "typographic_operations": [
-      "ordine razionale contro espressività caotica",
-      "scontro tra griglia e libertà"
-    ],
+    "tags": "Carson, Vignelli, leggibilità, scontro generazionale, modernismo vs grunge",
+    "typographic_operations": "ordine razionale contro espressività caotica, scontro tra griglia e libertà",
     "technical_stack": "Articoli storici, manifesti e tavole rotonde pubbliche",
     "workflow_evidence": "Alta: articoli e interviste originali ben documentate negli archivi AIGA.",
     "transferability": "Perfetto per inquadrare la tensione tra chi vuole caratteri invisibili e chi cerca caratteri espressivi o ermetici.",
@@ -1187,15 +1020,8 @@
     "plain_summary": "Un attacco frontale a programmi come Canva e ai template di Figma, che spingono milioni di grafici a produrre lavori tutti identici e insipidi.",
     "what_it_shows": "Fornisce la motivazione critica per rifiutare i software commerciali a canone mensile e riscoprire strumenti autonomi e aperti.",
     "description": "Cramer analizza come le piattaforme su abbonamento abbiano creato una vera 'monocultura visiva'. Più i software si riempiono di modelli pronti e aiuti automatici, più la grafica mondiale tende ad assomigliarsi, distruggendo le anomalie e i linguaggi spontanei.",
-    "tags": [
-      "Florian Cramer",
-      "monocultura",
-      "critica a Figma e Canva",
-      "software commerciali"
-    ],
-    "typographic_operations": [
-      "appiattimento delle scelte tipografiche imposto dai template preconfezionati"
-    ],
+    "tags": "Florian Cramer, monocultura, critica a Figma e Canva, software commerciali",
+    "typographic_operations": "appiattimento delle scelte tipografiche imposto dai template preconfezionati",
     "technical_stack": "Critica dell'economia delle piattaforme cloud",
     "workflow_evidence": "Altissima: saggio accademico solido pubblicato su rivista peer-reviewed.",
     "transferability": "Spiega chiaramente i rischi di affidarsi solo ai grandi programmi dell'industria per fare grafica.",
@@ -1245,16 +1071,8 @@
     "plain_summary": "Una disamina su come i comandi 'fai-tutto-con-un-click' e i prompt dell'AI facciano perdere al designer la capacità reale di fare le cose con le proprie mani, illudendolo di avere il controllo.",
     "what_it_shows": "Dimostra perché limitarsi a usare un generatore di immagini non rende più bravi, ma riduce il progettista a un semplice selezionatore di risposte già pronte.",
     "description": "Silvio Lorusso sgonfia l'entusiasmo per le interfacce generative automatiche. Quando il software fa tutto da solo a partire da una breve frase, chi progetta perde il contatto con la materia e con la tecnica, trasformandosi da costruttore a cliente pigro del proprio strumento.",
-    "tags": [
-      "Silvio Lorusso",
-      "de-skilling",
-      "perdita di competenze",
-      "critica all'AI",
-      "automazione"
-    ],
-    "typographic_operations": [
-      "perdita di controllo sulla posizione esatta dei nodi in favore di comandi verbali generici"
-    ],
+    "tags": "Silvio Lorusso, de-skilling, perdita di competenze, critica all'AI, automazione",
+    "typographic_operations": "perdita di controllo sulla posizione esatta dei nodi in favore di comandi verbali generici",
     "technical_stack": "Sociologia del lavoro digitale e analisi critica delle interfacce",
     "workflow_evidence": "Altissima: saggio analitico pubblicato dall'Institute of Network Cultures di Amsterdam.",
     "transferability": "Rafforza l'idea che la tesi debba insegnare a scrivere il codice dello strumento e non limitarsi a premere 'genera'.",
@@ -1304,18 +1122,8 @@
     "plain_summary": "Lo studio di New York che ha rivoluzionato l'identità visiva programmando software dedicati per i propri clienti, dove il testo si deforma e balla a ritmo di musica.",
     "what_it_shows": "Dimostra che la grafica moderna non consiste nel disegnare immagini fisse, ma nel programmare sistemi in movimento capaci di generare infinite configurazioni.",
     "description": "DIA Studio progetta identità visive basandosi su regole musicali e motion design procedurale. Invece di esportare animazioni bloccate su After Effects, consegnano ai clienti piccoli software web dove la tipografia reagisce in tempo reale a ritmo, velocità e interazioni.",
-    "tags": [
-      "DIA Studio",
-      "identità cinetica",
-      "caratteri variabili",
-      "motion typography",
-      "strumenti su misura"
-    ],
-    "typographic_operations": [
-      "modulazione sinusoidale",
-      "elasticità dei caratteri",
-      "variazione cinetica continua"
-    ],
+    "tags": "DIA Studio, identità cinetica, caratteri variabili, motion typography, strumenti su misura",
+    "typographic_operations": "modulazione sinusoidale, elasticità dei caratteri, variazione cinetica continua",
     "technical_stack": "Node.js, WebGL, font variabili, programmi web dedicati",
     "workflow_evidence": "Altissima: conferenze e dimostrazioni pubbliche dei software consegnati a grandi committenti.",
     "transferability": "Modello assoluto di riferimento per progettare un sito web in cui le lettere si muovono secondo regole matematiche ben calibrate.",
@@ -1369,18 +1177,8 @@
     "plain_summary": "Un carattere tipografico variabile e colorato in 3D che permette di modificare profondità ed estrusioni direttamente da CSS, senza bisogno di programmi 3D esterni.",
     "what_it_shows": "Dimostra che la tecnologia moderna dei font contiene già al suo interno informazioni di colore, volume e profondità calcolabili nativamente dal browser.",
     "description": "Nabla sfrutta il nuovo standard OpenType COLRv1. Le lettere non sono solo contorni neri piatti, ma solidi isometrici a strati colorati. Muovendo gli assi variabili, si possono allungare le ombre, variare l'estrusione e cambiare le palette cromatiche con semplici regole CSS.",
-    "tags": [
-      "COLRv1",
-      "font a colori",
-      "3D isometrico",
-      "CSS font-palette",
-      "open source"
-    ],
-    "typographic_operations": [
-      "estrusione geometrica",
-      "sfumature di colore a strati",
-      "variazione volumetrica"
-    ],
+    "tags": "COLRv1, font a colori, 3D isometrico, CSS font-palette, open source",
+    "typographic_operations": "estrusione geometrica, sfumature di colore a strati, variazione volumetrica",
     "technical_stack": "FontTools, RoboFont, UFO, specifica OpenType COLRv1",
     "workflow_evidence": "Altissima: sorgenti aperti su GitHub e distribuzione ufficiale su Google Fonts.",
     "transferability": "Ottimo esempio di come inserire effetti volumetrici spettacolari nel web senza appesantire la pagina con modelli 3D lenti.",
@@ -1435,19 +1233,8 @@
     "plain_summary": "La celebre fonderia parigina che crea e regala caratteri sperimentali, bizzarri e punk, distribuendo sempre i file sorgenti da aprire e modificare liberamente.",
     "what_it_shows": "Rappresenta l'etica della condivisione: incoraggia a prendere font altrui, smontarli, modificarli e riutilizzarli come base per nuovi esperimenti.",
     "description": "Fondata per sperimentare con strumenti aperti, Velvetyne pubblica font fuori dalle regole commerciali: caratteri brutalisti, deformati, modulari o pixelati. Ogni carattere è accompagnato dal sorgente completo, invitando chiunque a scaricarlo e modificarlo senza paura.",
-    "tags": [
-      "Velvetyne",
-      "font liberi",
-      "grafica punk",
-      "open source",
-      "sperimentazione"
-    ],
-    "typographic_operations": [
-      "geometrie insolite",
-      "forme pixelate",
-      "serif esagerati",
-      "rottura delle convenzioni"
-    ],
+    "tags": "Velvetyne, font liberi, grafica punk, open source, sperimentazione",
+    "typographic_operations": "geometrie insolite, forme pixelate, serif esagerati, rottura delle convenzioni",
     "technical_stack": "FontForge, Glyphs, repository Git aperti",
     "workflow_evidence": "Altissima: ogni carattere ha una cronologia pubblica di modifiche e contributi.",
     "transferability": "Fornisce una serie di ottimi caratteri aperti da caricare e manipolare legalmente all'interno del prototipo di tesi.",
@@ -1501,18 +1288,8 @@
     "plain_summary": "Un sito famosissimo che permette a chiunque di digitare una parola e vederla muovere all'istante dentro cilindri, spirali e onde 3D semplicemente muovendo dei cursori.",
     "what_it_shows": "Il modello pratico da seguire per l'interfaccia: comandi a sinistra, grande area visiva reattiva al centro e risposta immediata senza tempi di attesa.",
     "description": "Una raccolta di generatori visivi realizzati con p5.js. L'utente digita una frase e ne controlla la rotazione, l'ampiezza dell'onda o la griglia nello spazio tridimensionale, potendo esportare video o sequenze di immagini al volo.",
-    "tags": [
-      "Space Type Generator",
-      "p5.js",
-      "creative coding",
-      "tipografia cinetica",
-      "interazione web"
-    ],
-    "typographic_operations": [
-      "deformazione a onde",
-      "avvolgimento su cilindri",
-      "scomposizione cinetica del testo"
-    ],
+    "tags": "Space Type Generator, p5.js, creative coding, tipografia cinetica, interazione web",
+    "typographic_operations": "deformazione a onde, avvolgimento su cilindri, scomposizione cinetica del testo",
     "technical_stack": "p5.js, WebGL, JavaScript, HTML5 Canvas",
     "workflow_evidence": "Altissima: software usabile online da anni con decine di workshop tenuti dall'autore.",
     "transferability": "Ispirazione diretta per la struttura della pagina web del prototipo di tesi.",
@@ -1566,17 +1343,8 @@
     "plain_summary": "Il manifesto e il manuale di regole inventato dall'autore per creare un sistema di scrittura che disattiva la lettura automatica, mimetizzando il testo come fosse una figura astratta.",
     "what_it_shows": "Il cuore teorico della tesi: la formula 'Non è testo, ma lo è', che guida la costruzione del software e delle deformazioni visive.",
     "description": "Un sistema di regole per costruire glifi che rallentano la decifrazione. Le lettere non urlano per farsi capire al primo sguardo, ma si fondono con lo spazio circostante, richiedendo a chi guarda un atto deliberato di attenzione per ricostruire il messaggio.",
-    "tags": [
-      "atipografia",
-      "mimetismo visivo",
-      "astrazione",
-      "decostruzione",
-      "manifesto"
-    ],
-    "typographic_operations": [
-      "riduzione del segno a forme geometriche minime",
-      "mimetizzazione delle controforme"
-    ],
+    "tags": "atipografia, mimetismo visivo, astrazione, decostruzione, manifesto",
+    "typographic_operations": "riduzione del segno a forme geometriche minime, mimetizzazione delle controforme",
     "technical_stack": "Manuale concettuale, sperimentazione vettoriale",
     "workflow_evidence": "Altissima: manuale formalizzato e documenti di bottega dell'autore.",
     "transferability": "Rappresenta l'anima concettuale che dà un senso alla parte pratica del progetto.",
@@ -1626,16 +1394,8 @@
     "plain_summary": "La specifica tecnica mondiale che spiega ai browser come gestire i font variabili e i font a colori tramite semplici righe di codice CSS.",
     "what_it_shows": "Fornisce le regole ufficiali per collegare i cursori del sito alle proprietà dei caratteri senza trucchi o codici pesanti.",
     "description": "Il documento ufficiale del consorzio W3C. Definisce le proprietà con cui il web gestisce la tipografia moderna: `font-variation-settings` per muovere gli assi di peso, larghezza e inclinazione, e `font-palette` per ricolorare i caratteri policromi senza usare immagini esterne.",
-    "tags": [
-      "W3C",
-      "CSS Fonts",
-      "caratteri variabili",
-      "font-variation-settings",
-      "standard web"
-    ],
-    "typographic_operations": [
-      "variazione continua dei parametri del font tramite codice CSS"
-    ],
+    "tags": "W3C, CSS Fonts, caratteri variabili, font-variation-settings, standard web",
+    "typographic_operations": "variazione continua dei parametri del font tramite codice CSS",
     "technical_stack": "Standard ufficiale per i motori dei browser (Chrome, Safari, Firefox)",
     "workflow_evidence": "Altissima: specifica ufficiale adottata da tutti i browser moderni con suite di test aperta.",
     "transferability": "Il testo di riferimento indispensabile per scrivere il foglio di stile CSS del prototipo di tesi.",
@@ -1690,17 +1450,8 @@
     "plain_summary": "Le istruzioni per far ascoltare la musica o la voce al browser e usare le frequenze dei bassi o degli acuti per far pulsare e deformare le lettere a tempo.",
     "what_it_shows": "Permette di creare una funzione interattiva nel sito dove le persone parlano al microfono o mettono una canzone e vedono il testo muoversi da solo.",
     "description": "La guida standard per catturare e scomporre l'audio nel browser. Tramite il nodo `AnalyserNode`, il volume e le frequenze sonore vengono trasformate in numeri istantanei che possono essere associati direttamente agli assi di peso o larghezza di un font variabile.",
-    "tags": [
-      "Web Audio API",
-      "suono e tipografia",
-      "reattività sonora",
-      "caratteri variabili"
-    ],
-    "typographic_operations": [
-      "pulsazione a tempo di musica",
-      "allargamento delle lettere sui toni bassi",
-      "vibrazione"
-    ],
+    "tags": "Web Audio API, suono e tipografia, reattività sonora, caratteri variabili",
+    "typographic_operations": "pulsazione a tempo di musica, allargamento delle lettere sui toni bassi, vibrazione",
     "technical_stack": "JavaScript nativo, Web Audio API, CSS Custom Properties",
     "workflow_evidence": "Alta: documentazione ufficiale con centinaia di prototipi ed esempi funzionanti online.",
     "transferability": "Codice leggero e già integrato nei browser, perfetto per aggiungere interattività sonora senza pesanti librerie esterne.",
@@ -1754,18 +1505,8 @@
     "plain_summary": "Il metodo tecnico per mostrare scritte 3D ultra-fluide e nitide su WebGL senza rallentare il computer, usando piccoli programmi (shader) che girano sulla scheda video.",
     "what_it_shows": "Garantisce che il prototipo possa mostrare effetti tridimensionali spettacolari (rifrazioni, trasparenze, onde) a 60 fotogrammi al secondo costanti.",
     "description": "Una pipeline per Three.js che sfrutta le texture Signed Distance Field. Le lettere mantengono spigoli affilati anche quando vengono ingrandite a dismisura o deformate da campi di forza e onde, delegando tutto il lavoro grafico alla scheda video dell'utente.",
-    "tags": [
-      "Three.js",
-      "WebGL",
-      "shader GLSL",
-      "tipografia 3D",
-      "performance"
-    ],
-    "typographic_operations": [
-      "estrusione procedurale",
-      "rifrazione della luce",
-      "deformazione spaziale"
-    ],
+    "tags": "Three.js, WebGL, shader GLSL, tipografia 3D, performance",
+    "typographic_operations": "estrusione procedurale, rifrazione della luce, deformazione spaziale",
     "technical_stack": "JavaScript, WebGL, shader GLSL, Three.js",
     "workflow_evidence": "Altissima: centinaia di esempi di codice funzionanti ed eseguiti in tempo reale nella community di Three.js.",
     "transferability": "La base tecnica per implementare la parte tridimensionale e plastica del sito web di tesi.",
@@ -1819,18 +1560,8 @@
     "plain_summary": "La libreria universale in Python che permette di aprire qualsiasi file di carattere (.otf, .ttf, .woff2), leggerne il contenuto come testo modificabile e ricompilarlo.",
     "what_it_shows": "Dimostra come la tipografia moderna sia governata da strumenti aperti: senza questa libreria gratuita, la maggior parte dell'industria dei font non funzionerebbe.",
     "description": "Il software open source più importante al mondo per lavorare sui file dei caratteri. Permette di trasformare un font binario chiuso in un file XML leggibile (TTX), modificare nodi e tabelle di variazione tramite script Python e risalvarlo pronto per l'uso.",
-    "tags": [
-      "fonttools",
-      "Python",
-      "OpenType",
-      "compilatore font",
-      "standard industriale"
-    ],
-    "typographic_operations": [
-      "estrazione di contorni vettoriali",
-      "manipolazione di tabelle di variazione",
-      "subsetting"
-    ],
+    "tags": "fonttools, Python, OpenType, compilatore font, standard industriale",
+    "typographic_operations": "estrazione di contorni vettoriali, manipolazione di tabelle di variazione, subsetting",
     "technical_stack": "Python, estensioni C, parser XML",
     "workflow_evidence": "Altissima: il pilastro su cui poggiano Google Fonts, Adobe e quasi tutti i programmi di type design.",
     "transferability": "Fondamentale per qualsiasi operazione seria di esportazione o modifica automatica dei caratteri da terminale.",
@@ -1885,18 +1616,8 @@
     "plain_summary": "La libreria JavaScript che permette di trascinare un font nel browser e leggerne subito tutti i punti, le curve e le coordinate, pronti per essere deformati su uno schermo canvas.",
     "what_it_shows": "La chiave tecnica per il prototipo: consente all'utente di caricare qualsiasi font dal proprio computer e modificarne i contorni in tempo reale senza dover passare da un server.",
     "description": "Un motore open source scritto per il web che apre i file OpenType e TrueType direttamente con JavaScript. Tramite il comando `font.getPath()`, restituisce la posizione esatta di ogni nodo e curva Bézier, consentendo di manipolare le lettere punto per punto.",
-    "tags": [
-      "opentype.js",
-      "JavaScript",
-      "curve Bézier",
-      "browser",
-      "deformazione vettoriale"
-    ],
-    "typographic_operations": [
-      "estrazione coordinate nodi",
-      "deformazione interattiva dei punti",
-      "esportazione vettoriale"
-    ],
+    "tags": "opentype.js, JavaScript, curve Bézier, browser, deformazione vettoriale",
+    "typographic_operations": "estrazione coordinate nodi, deformazione interattiva dei punti, esportazione vettoriale",
     "technical_stack": "JavaScript, HTML5 Canvas, Web APIs (FileReader, ArrayBuffer)",
     "workflow_evidence": "Altissima: documentazione completa, centinaia di progetti attivi ed esempi funzionanti online.",
     "transferability": "Il componente software principale da installare nel prototipo web per muovere e alterare le lettere.",
@@ -1950,19 +1671,8 @@
     "plain_summary": "Una libreria per Three.js creata appositamente per impaginare testi lunghi su più righe dentro ambienti 3D WebGL senza perdere definizione e senza bloccare il browser.",
     "what_it_shows": "Risolve il classico problema del testo 3D sgranato: permette di mostrare scritte complesse nello spazio tridimensionale con una nitidezza perfetta da qualsiasi angolatura.",
     "description": "Matt DesLauriers ha risolto uno dei problemi storici del web 3D: trasformare testi multiriga in geometrie ottimali usando texture Distance Fields. Il testo si adatta, va a capo da solo e mantiene bordi limpidi senza appesantire la memoria della scheda video.",
-    "tags": [
-      "three-bmfont-text",
-      "WebGL",
-      "Three.js",
-      "testo 3D",
-      "impaginazione",
-      "SDF"
-    ],
-    "typographic_operations": [
-      "rendering 3D di paragrafi",
-      "ritorno a capo automatico nello spazio",
-      "anti-aliasing procedurale"
-    ],
+    "tags": "three-bmfont-text, WebGL, Three.js, testo 3D, impaginazione, SDF",
+    "typographic_operations": "rendering 3D di paragrafi, ritorno a capo automatico nello spazio, anti-aliasing procedurale",
     "technical_stack": "JavaScript, WebGL, Three.js, shader GLSL",
     "workflow_evidence": "Altissima: standard di fatto usato dai migliori creativi web del mondo.",
     "transferability": "Perfetto se nel sito si vogliono inserire testi di spiegazione o manifesti che galleggiano dentro una scena 3D interattiva.",
@@ -2017,19 +1727,8 @@
     "plain_summary": "Il primo carattere tipografico digitale che cambiava forma da solo: ogni volta che veniva mandato alla stampante, un pezzetto di codice modificava le coordinate dei punti, rendendo ogni lettera unica e diversa dalla precedente.",
     "what_it_shows": "L'origine storica del tool-making per caratteri: dimostra che un font al computer non è un timbro fisso di metallo, ma un programma che decide come disegnarsi.",
     "description": "Nel 1990 i designer olandesi di LettError hackerarono il codice PostScript dei font. Inserendo una funzione casuale chiamata 'freakto', fecero in modo che la stampante interpretasse le curve delle lettere con lievi sbandamenti casuali, rompendo per la prima volta la perfezione ripetitiva della macchina.",
-    "tags": [
-      "Beowolf",
-      "LettError",
-      "generativo",
-      "hack",
-      "storia digitale",
-      "MoMA"
-    ],
-    "typographic_operations": [
-      "mutazione casuale dei nodi vettoriali",
-      "degrado controllato",
-      "variazione infinita"
-    ],
+    "tags": "Beowolf, LettError, generativo, hack, storia digitale, MoMA",
+    "typographic_operations": "mutazione casuale dei nodi vettoriali, degrado controllato, variazione infinita",
     "technical_stack": "Codice PostScript Type 1 grezzo, computer NeXT e Macintosh",
     "workflow_evidence": "Altissima: opera acquisita nella collezione permanente del MoMA di New York.",
     "transferability": "L'esempio storico perfetto da citare per spiegare perché la tesi fa muovere le coordinate dei glifi via codice.",
@@ -2082,18 +1781,8 @@
     "plain_summary": "Il programma per disegnare caratteri su misura per programmatori: ogni singola funzione o finestra può essere modificata o estesa scrivendo piccoli script in Python.",
     "what_it_shows": "Dimostra come la figura del type designer contemporaneo coincida con quella di chi programma i propri strumenti di lavoro quotidiani.",
     "description": "A differenza dei software grafici chiusi con pulsanti fissi, RoboFont è pensato come una scatola trasparente collegata a Python. Chi lo usa può inventare nuovi strumenti per misurare spessori, generare glifi composti o controllare la spaziatura tramite codice personalizzato.",
-    "tags": [
-      "RoboFont",
-      "Python",
-      "font editor",
-      "strumenti su misura",
-      "automazione"
-    ],
-    "typographic_operations": [
-      "manipolazione di nodi via script",
-      "spaziatura automatizzata",
-      "generazione parametrica"
-    ],
+    "tags": "RoboFont, Python, font editor, strumenti su misura, automazione",
+    "typographic_operations": "manipolazione di nodi via script, spaziatura automatizzata, generazione parametrica",
     "technical_stack": "Python 3, macOS Cocoa, API FontParts, formato aperto UFO",
     "workflow_evidence": "Altissima: lo standard usato nei master internazionali (KABK, ECAL) e nelle fonderie indipendenti.",
     "transferability": "Rappresenta il modello di riferimento per capire come unire disegno a mano e programmazione su misura.",
@@ -2148,18 +1837,8 @@
     "plain_summary": "Un'applicazione open source per scrivere codice Python e vedere all'istante comparire pagine, manifesti e animazioni tipografiche pronte da stampare o esportare.",
     "what_it_shows": "Insegna come usare il codice per produrre provini tipografici dinamici: si cambiano due numeri e il programma impagina centinaia di pagine di test in un secondo.",
     "description": "Uno strumento didattico e produttivo fondamentale nelle scuole di tipografia. Permette di caricare qualsiasi font, regolarne assi e pesi con cicli matematici, ed esportare PDF vettoriali per la stampa o filmati MP4 senza toccare un solo programma di impaginazione tradizionale.",
-    "tags": [
-      "DrawBot",
-      "Python",
-      "provini tipografici",
-      "automazione grafica",
-      "open source"
-    ],
-    "typographic_operations": [
-      "impaginazione automatica multipagina",
-      "cicli di variazione degli assi",
-      "prove di stampa"
-    ],
+    "tags": "DrawBot, Python, provini tipografici, automazione grafica, open source",
+    "typographic_operations": "impaginazione automatica multipagina, cicli di variazione degli assi, prove di stampa",
     "technical_stack": "Python, motori grafici CoreText e PDFKit su macOS",
     "workflow_evidence": "Altissima: codice aperto su GitHub e provini ufficiali di fonderie generati con questo strumento.",
     "transferability": "Perfetto per generare dataset di immagini o prove di caratteri tramite istruzioni chiare e ripetibili.",
@@ -2213,18 +1892,8 @@
     "plain_summary": "Un sito web gratuito dove si trascina un font e si scopre all'istante tutto quello che sa fare: lettere nascoste, legature speciali, assi di variazione e codice CSS pronto per il sito.",
     "what_it_shows": "Un esempio perfetto di sicurezza e privacy: legge il file del font direttamente sul browser dell'utente senza spedirlo a nessun server esterno.",
     "description": "Uno strumento di diagnostica open source utilissimo. Analizza i file di font ed elenca tutte le funzioni OpenType programmate al loro interno, generando al volo le righe di CSS necessarie per accenderle e controllarle su una pagina web.",
-    "tags": [
-      "Wakamai Fondue",
-      "ispezione font",
-      "OpenType",
-      "caratteri variabili",
-      "CSS"
-    ],
-    "typographic_operations": [
-      "scoperta di legature opzionali",
-      "visualizzazione degli assi variabili",
-      "estrazione metadati"
-    ],
+    "tags": "Wakamai Fondue, ispezione font, OpenType, caratteri variabili, CSS",
+    "typographic_operations": "scoperta di legature opzionali, visualizzazione degli assi variabili, estrazione metadati",
     "technical_stack": "JavaScript moderno, WebAssembly, opentype.js",
     "workflow_evidence": "Altissima: codice completamente aperto su GitHub e pacchetto npm utilizzabile da tutti.",
     "transferability": "Modello ideale da cui copiare la funzione di analisi dei file font caricati dall'utente nel nostro prototipo.",
@@ -2278,18 +1947,8 @@
     "plain_summary": "Una scoperta matematica che fa muovere i punti di un font lungo traiettorie curve e non rette, permettendo a una lettera di compiere animazioni complesse senza scatti.",
     "what_it_shows": "Dimostra che i designer possono riscrivere le regole matematiche dei software per ottenere movimenti organici e fluidi prima considerati impossibili.",
     "description": "Il collettivo Underware supera il limite dei font variabili tradizionali, dove i nodi si muovono solo in linea retta tra una variante e l'altra. Con l'interpolazione di ordine superiore (HOI), i punti possono seguire archi e parabole, permettendo al carattere di simulare la scrittura a mano libera o animarsi da solo senza video esterni.",
-    "tags": [
-      "Underware",
-      "HOI",
-      "interpolazione curva",
-      "animazione tipografica",
-      "matematica applicata"
-    ],
-    "typographic_operations": [
-      "traiettorie curve dei nodi",
-      "correzioni ottiche fluide",
-      "autoscrittura"
-    ],
+    "tags": "Underware, HOI, interpolazione curva, animazione tipografica, matematica applicata",
+    "typographic_operations": "traiettorie curve dei nodi, correzioni ottiche fluide, autoscrittura",
     "technical_stack": "FontTools, tabelle OpenType avanzate ('avar'/'fvar'), script matematici in Python",
     "workflow_evidence": "Altissima: spiegazione dettagliata, video sbalorditivi e prototipi scaricabili online.",
     "transferability": "Ispirazione per applicare formule di movimento curve e morbide alle deformazioni nel prototipo web.",
@@ -2343,18 +2002,8 @@
     "plain_summary": "Il leggendario plugin che permetteva di programmare in JavaScript dentro Adobe Illustrator, consentendo ai designer di inventare i propri pennelli e strumenti automatici.",
     "what_it_shows": "Il modello storico di come un designer possa ribellarsi ai limiti di un programma chiuso commerciale, aprendolo con il codice per farlo fare ciò che vuole lui.",
     "description": "Creato da Jürg Lehni, Scriptographer ha segnato una generazione di grafici nei primi anni 2000. Trasformava Illustrator da software rigido a piattaforma aperta, dove chiunque poteva scrivere script per generare forme geometriche, retini deformati o scritte sperimentali con pochi comandi.",
-    "tags": [
-      "Scriptographer",
-      "Jürg Lehni",
-      "plugin Illustrator",
-      "disegno vettoriale",
-      "hacking"
-    ],
-    "typographic_operations": [
-      "tracciamento vettoriale procedurale",
-      "deformazione di percorsi",
-      "spaziatura calcolata"
-    ],
+    "tags": "Scriptographer, Jürg Lehni, plugin Illustrator, disegno vettoriale, hacking",
+    "typographic_operations": "tracciamento vettoriale procedurale, deformazione di percorsi, spaziatura calcolata",
     "technical_stack": "C++, JavaScript, Adobe Illustrator Plugin API",
     "workflow_evidence": "Altissima: archivio storico documentato con centinaia di script creati e condivisi dalla comunità.",
     "transferability": "L'antenato concettuale e diretto di Paper.js, perfetto per spiegare le origini del creative coding vettoriale.",
@@ -2408,18 +2057,8 @@
     "plain_summary": "La libreria JavaScript che permette di manipolare curve, linee e forme geometriche sul web con la stessa precisione e naturalezza di un programma di grafica vettoriale.",
     "what_it_shows": "La soluzione tecnica ideale per calcolare intersezioni, ammorbidire curve e deformare contorni di lettere dentro una pagina web.",
     "description": "L'evoluzione naturale e indipendente di Scriptographer per il web aperto. Paper.js offre un sistema comodissimo per gestire curve Bézier, segmenti e vettori su elementi Canvas HTML5, rendendo facilissimo sommare, sottrarre o distorcere forme tramite poche righe di codice.",
-    "tags": [
-      "Paper.js",
-      "grafica vettoriale",
-      "curve Bézier",
-      "canvas HTML5",
-      "JavaScript"
-    ],
-    "typographic_operations": [
-      "interpolazione di percorsi vettoriali",
-      "suddivisione di segmenti",
-      "unione e sottrazione di glifi"
-    ],
+    "tags": "Paper.js, grafica vettoriale, curve Bézier, canvas HTML5, JavaScript",
+    "typographic_operations": "interpolazione di percorsi vettoriali, suddivisione di segmenti, unione e sottrazione di glifi",
     "technical_stack": "JavaScript, HTML5 Canvas API",
     "workflow_evidence": "Altissima: documentazione impeccabile con esempi pratici ed esecuzione interattiva online.",
     "transferability": "Lo strumento consigliato per gestire la matematica delle curve nel prototipo in combinazione con i font caricati.",
@@ -2473,19 +2112,8 @@
     "plain_summary": "La libreria JavaScript più usata al mondo nelle scuole d'arte per insegnare la programmazione visiva a chi non è un ingegnere informatico.",
     "what_it_shows": "Fornisce la funzione `textToPoints()`, che trasforma qualsiasi scritta in una nuvola di punti che possono rimbalzare, fuggire dal mouse o esplodere sullo schermo.",
     "description": "Nata per rendere accessibile il codice a designer, artisti e principianti. Con istruzioni intuitive per caricare caratteri e convertirne i contorni in serie di punti geometrici, p5.js è la piattaforma regina per prototipare rapidamente idee di tipografia interattiva e generativa nel browser.",
-    "tags": [
-      "p5.js",
-      "creative coding",
-      "didattica",
-      "textToPoints",
-      "particelle",
-      "open source"
-    ],
-    "typographic_operations": [
-      "campionamento dei contorni in coordinate puntiformi",
-      "sciami di lettere",
-      "reattività al mouse"
-    ],
+    "tags": "p5.js, creative coding, didattica, textToPoints, particelle, open source",
+    "typographic_operations": "campionamento dei contorni in coordinate puntiformi, sciami di lettere, reattività al mouse",
     "technical_stack": "JavaScript, HTML5 Canvas, WebGL, Web Audio API",
     "workflow_evidence": "Altissima: usata a livello globale con un editor web gratuito e milioni di progetti condivisi.",
     "transferability": "Ideale per testare al volo idee di distorsione tipografica prima di riscriverle in codice ottimizzato.",
@@ -2539,18 +2167,8 @@
     "plain_summary": "La rivista e la fonderia californiana che negli anni '80 ha abbracciato i pixel sgranati del primo computer Mac, creando caratteri scalettati invece di vergognarsene.",
     "what_it_shows": "La frase chiave di Zuzana Licko: 'Si legge meglio quello che si è abituati a leggere di più', che dimostra come la leggibilità sia solo una questione di abitudine culturale.",
     "description": "Emigre ha cambiato per sempre la grafica accogliendo i limiti tecnici dei primi Macintosh a bassa risoluzione (72 dpi). Invece di imitare la vecchia stampa a piombo, hanno disegnato caratteri a pixel visibili, dimostrando che ogni nuova tecnologia porta con sé un'estetica visiva tutta sua.",
-    "tags": [
-      "Emigre",
-      "Zuzana Licko",
-      "Macintosh",
-      "caratteri bitmap",
-      "leggibilità d'abitudine"
-    ],
-    "typographic_operations": [
-      "rasterizzazione evidente",
-      "caratteri a griglia di pixel",
-      "impaginazione a strati"
-    ],
+    "tags": "Emigre, Zuzana Licko, Macintosh, caratteri bitmap, leggibilità d'abitudine",
+    "typographic_operations": "rasterizzazione evidente, caratteri a griglia di pixel, impaginazione a strati",
     "technical_stack": "Computer Macintosh 128k, MacPaint, primi programmi di type design vettoriale",
     "workflow_evidence": "Altissima: 69 numeri di rivista storici e saggi teorici conservati nei musei di design di tutto il mondo.",
     "transferability": "Perfetto per difendere la scelta di usare forme strane o non convenzionali: la leggibilità non è una legge della fisica, ma un'abitudine che si può educare.",
@@ -2604,16 +2222,8 @@
     "plain_summary": "Il creatore del primo sito di test per caratteri variabili traccia un bilancio dopo sette anni, mostrando lettere che reagiscono alla luce della stanza e al movimento del telefono.",
     "what_it_shows": "Mostra lo stato dell'arte reale: i font variabili non servono solo a risparmiare peso nei file, ma sono un mezzo fluido che reagisce all'ambiente circostante.",
     "description": "Una conferenza tenuta ad ATypI Parigi da Laurence Penney (inventore di Axis-Praxis). Penney spiega come connettere i sensori fisici degli smartphone (giroscopio, sensore di luce ambientale) ai parametri del testo, aprendo le porte a una tipografia che si piega e respira insieme al lettore.",
-    "tags": [
-      "Laurence Penney",
-      "ATypI",
-      "caratteri variabili",
-      "sensori fisici",
-      "web typography"
-    ],
-    "typographic_operations": [
-      "variazione dei parametri guidata da giroscopio e sensore di luminosità"
-    ],
+    "tags": "Laurence Penney, ATypI, caratteri variabili, sensori fisici, web typography",
+    "typographic_operations": "variazione dei parametri guidata da giroscopio e sensore di luminosità",
     "technical_stack": "Standard CSS Fonts 4, OpenType 1.8, Web Sensor APIs",
     "workflow_evidence": "Altissima: conferenza ufficiale con dimostrazioni pratiche di codice ed esempi dal vivo.",
     "transferability": "Suggerisce idee semplici per collegare i movimenti dell'utente (come muovere il mouse o inclinare il telefono) agli assi del font nel prototipo.",
@@ -2667,19 +2277,8 @@
     "plain_summary": "Una conferenza energica dove Mitch Paone spiega come il suo studio usi i principi dell'improvvisazione al pianoforte jazz per far ballare la tipografia tramite piccoli programmi web dedicati.",
     "what_it_shows": "La frase chiave: 'Se progetti una grafica statica sei un fotografo; se crei un tool sei il costruttore dell'intero universo in cui le lettere vivono'.",
     "description": "Mitch Paone racconta il cambio di mentalità di DIA Studio. Mostra sullo schermo i software interni costruiti per clienti come Squarespace, dove i designer regolano ritmo, accelerazioni ed elasticità come fossero musicisti che suonano uno strumento.",
-    "tags": [
-      "Mitch Paone",
-      "DIA Studio",
-      "OFFF",
-      "jazz",
-      "tipografia cinetica",
-      "tool dedicati"
-    ],
-    "typographic_operations": [
-      "modulazione elastica",
-      "deformazione sinusoidale",
-      "tipografia parametrica"
-    ],
+    "tags": "Mitch Paone, DIA Studio, OFFF, jazz, tipografia cinetica, tool dedicati",
+    "typographic_operations": "modulazione elastica, deformazione sinusoidale, tipografia parametrica",
     "technical_stack": "Software WebGL custom, font variabili, codice generativo JavaScript",
     "workflow_evidence": "Altissima: dimostrazioni video dei software reali in funzione con cursori e parametri modificati dal vivo.",
     "transferability": "Fornisce la carica concettuale per presentare il prototipo web come uno 'strumento musicale' per la tipografia.",
@@ -2733,19 +2332,8 @@
     "plain_summary": "L'autore di Beowolf ripercorre trent'anni di carriera, spiegando come l'idea di far cambiare forma alle lettere sia rimasta viva dai primi hack del 1989 fino ai moderni font variabili.",
     "what_it_shows": "Dimostra che la curiosità per il codice della macchina è il vero filo conduttore che unisce i pionieri del digitale agli sviluppatori web di oggi.",
     "description": "Una conferenza intima e divertente in cui Just van Rossum mostra i listati di codice originali scritti a mano alla fine degli anni '80. Racconta il filo rosso che unisce Beowolf, l'invenzione di DrawBot, la nascita di FontTools e l'arrivo dell'OpenType moderno.",
-    "tags": [
-      "Just van Rossum",
-      "Beowolf",
-      "storia",
-      "TypeCon",
-      "retrospettiva",
-      "hacking"
-    ],
-    "typographic_operations": [
-      "mutazione stocastica",
-      "evoluzione dai pixel ai vettori",
-      "interpolazione"
-    ],
+    "tags": "Just van Rossum, Beowolf, storia, TypeCon, retrospettiva, hacking",
+    "typographic_operations": "mutazione stocastica, evoluzione dai pixel ai vettori, interpolazione",
     "technical_stack": "Codice PostScript storico, Python, FontTools",
     "workflow_evidence": "Altissima: documenti storici originali e spezzoni di codice commentati direttamente dall'autore.",
     "transferability": "Perfetto per scrivere l'introduzione storica della tesi con aneddoti di prima mano non banali.",
@@ -2799,17 +2387,8 @@
     "plain_summary": "Una lezione universitaria in cui Jürg Lehni spiega che costruire lo strumento con cui altri progetteranno è l'atto di design più potente e generativo che esista.",
     "what_it_shows": "Fornisce la risposta definitiva alla domanda: 'In che senso costruire un software è già un progetto di design e non una semplice mansione tecnica?'.",
     "description": "Lehni racconta vent'anni di progetti: dal plugin Scriptographer alla libreria Paper.js, fino alle macchine fisiche sospese che disegnano con bombolette spray sui muri dei musei. Spiega come la forma finale di un'opera dipenda sempre dai limiti e dalle libertà concesse dallo strumento con cui è stata realizzata.",
-    "tags": [
-      "Jürg Lehni",
-      "ECAL",
-      "tool-making",
-      "macchine da disegno",
-      "filosofia del progetto"
-    ],
-    "typographic_operations": [
-      "vettorializzazione algoritmica",
-      "disegno meccanico a grandi dimensioni"
-    ],
+    "tags": "Jürg Lehni, ECAL, tool-making, macchine da disegno, filosofia del progetto",
+    "typographic_operations": "vettorializzazione algoritmica, disegno meccanico a grandi dimensioni",
     "technical_stack": "JavaScript, Paper.js, motori fisici passo-passo",
     "workflow_evidence": "Altissima: spiegazione sincera di tutti i fallimenti e tentativi prima di arrivare ai prototipi finali.",
     "transferability": "Argomentazione brillante da usare nelle conclusioni della tesi per difendere il valore progettuale del tool.",
