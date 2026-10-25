@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archivio delle fonti | Tipografia & Tool — Tesi ISIA 2026</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="swiss.css">
+</head>
+<body>
+  <div class="reading-bar"></div>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-monogram">TB</span>
+        <span class="brand-text">
+          <span class="brand-title">Tipografia & Tool</span>
+          <span class="brand-meta">ISIA 2026 • Matteo Borghese</span>
+        </span>
+      </a>
+      <nav>
+        <ul class="nav-menu">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link active" href="sources.html">Archivio (<span class="js-source-count">45</span>)</a></li>
+          <li><a class="nav-link" href="synthesis.html">Sintesi</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button type="button" class="theme-btn" aria-label="Cambia tema"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+
+      <section class="section-heading">
+        <span class="section-label">Archivio</span>
+        <h1 class="section-title">Tutte le fonti, in parole semplici</h1>
+        <p class="section-desc">
+          Ogni scheda dice subito di cosa parla, perché conta per la tesi e come si usa
+          nel progetto. Restringi il campo con i filtri: area, categoria, filone, tipo,
+          periodo o strumento. Suggerimento: premi <code>/</code> per cercare al volo.
+        </p>
+      </section>
+
+      <div class="controls-container">
+        <div class="search-row">
+          <div class="search-wrap">
+            <span class="search-icon">🔎</span>
+            <input type="search" id="searchInput" class="search-input"
+                   placeholder="Cerca per autore, titolo, concetto, strumento…"
+                   aria-label="Cerca nell'archivio">
+            <button type="button" id="clearSearchBtn" class="clear-search-btn" aria-label="Svuota la ricerca">✕</button>
+          </div>
+        </div>
+
+        <div class="filters-grid">
+          <div class="filter-group">
+            <label class="filter-label" for="filterCluster">Area tematica</label>
+            <select id="filterCluster" class="filter-select"></select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label" for="filterCategory">Categoria</label>
+            <select id="filterCategory" class="filter-select"></select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label" for="filterThread">Filone</label>
+            <select id="filterThread" class="filter-select"></select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label" for="filterType">Tipo di fonte</label>
+            <select id="filterType" class="filter-select"></select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label" for="filterYear">Periodo</label>
+            <select id="filterYear" class="filter-select"></select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label" for="filterTool">Strumento</label>
+            <select id="filterTool" class="filter-select"></select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-label" for="filterPriority">Priorità</label>
+            <select id="filterPriority" class="filter-select"></select>
+          </div>
+          <div class="filter-group filter-actions">
+            <button type="button" id="btnResetFilters" class="btn-reset">Azzera i filtri</button>
+          </div>
+        </div>
+
+        <div class="cluster-chip-row" id="clusterChipRow"></div>
+      </div>
+
+      <div class="results-toolbar">
+        <span class="results-count" id="resultsCount"></span>
+        <div class="view-options">
+          <select id="sortSelect" class="filter-select" aria-label="Ordina i risultati">
+            <option value="affinity-desc">Più vicine alla tesi</option>
+            <option value="affinity-asc">Meno vicine alla tesi</option>
+            <option value="year-desc">Più recenti</option>
+            <option value="year-asc">Più antiche</option>
+            <option value="title-asc">Titolo A–Z</option>
+            <option value="score_t-desc">Score tipografia</option>
+            <option value="score_p-desc">Score tool</option>
+          </select>
+          <button type="button" id="viewGridBtn" class="view-btn active" title="Vista a griglia" aria-label="Vista a griglia">▦</button>
+          <button type="button" id="viewListBtn" class="view-btn" title="Vista elenco" aria-label="Vista elenco">☰</button>
+        </div>
+      </div>
+
+      <div class="sources-grid" id="sourcesGrid"></div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col-thesis">
+        <div class="footer-thesis-title">Tipografia come Forma & Tool come Atto Progettuale</div>
+        <p class="footer-thesis-desc">
+          Tesi magistrale in Design della Comunicazione • ISIA 2026.
+          Sito statico: HTML, CSS e JavaScript senza framework, dati da un unico database JSON.
+        </p>
+      </div>
+      <div>
+        <div class="footer-links-title">Mappa del sito</div>
+        <ul class="footer-links-list">
+          <li><a class="footer-link" href="index.html">Home • dashboard</a></li>
+          <li><a class="footer-link" href="sources.html">Archivio • filtri e schede</a></li>
+          <li><a class="footer-link" href="synthesis.html">Sintesi • stato dell'arte</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-links-title">Dati e risorse</div>
+        <ul class="footer-links-list">
+          <li><a class="footer-link" href="./data/database_v2.json">database_v2.json</a></li>
+          <li><a class="footer-link" href="./data/STATE_OF_THE_ART.md">Sintesi in Markdown</a></li>
+          <li><a class="footer-link" href="sources.html?thread=ENTRAMBI">Fonti su entrambi i filoni</a></li>
+          <li><a class="footer-link" href="sources.html?priority=PRIMARIA">Solo fonti primarie</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Matteo Borghese • ISIA</span>
+      <span>Metodo Research-through-Design • archivio statico locale</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script src="swiss-switch.js"></script>
+</body>
+</html>

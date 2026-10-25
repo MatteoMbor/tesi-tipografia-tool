@@ -1,0 +1,160 @@
+/* ==========================================================================
+   STILE SVIZZERO — International Typographic Style
+   Override reversibile: attivo SOLO con <html data-style="swiss">.
+   I colori NON cambiano: restano le variabili del design system attuale.
+   ========================================================================== */
+
+/* Pulsante interruttore (visibile in entrambi gli stili) */
+.style-btn {
+  font-family: var(--font-mono);
+  font-size: var(--step--2);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  padding: .45rem .7rem;
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-medium);
+  border-radius: 0;
+  cursor: pointer;
+}
+.style-btn:hover { color: var(--text-primary); border-color: var(--accent-vermilion); }
+
+/* ---------- 1. Geometria: angoli vivi, niente ombre, niente gradienti ---------- */
+html[data-style="swiss"] {
+  --radius-xs: 0; --radius-sm: 0; --radius-md: 0; --radius-lg: 0; --radius-pill: 0;
+  --shadow-sm: none; --shadow-md: none; --shadow-lg: none; --shadow-glow: none;
+  --font-serif: var(--font-sans);
+}
+html[data-style="swiss"] *,
+html[data-style="swiss"] *::before,
+html[data-style="swiss"] *::after { transition: none !important; }
+
+html[data-style="swiss"] .bar-fill.vermilion { background: var(--accent-vermilion); }
+html[data-style="swiss"] .bar-fill.cobalt    { background: var(--accent-cobalt); }
+html[data-style="swiss"] .bar-fill.emerald   { background: var(--accent-emerald); }
+html[data-style="swiss"] .bar-fill.amber     { background: var(--accent-amber); }
+html[data-style="swiss"] .bar-fill.purple    { background: var(--accent-purple); }
+html[data-style="swiss"] .affinity-bar-fill  { background: var(--accent-vermilion); }
+html[data-style="swiss"] .brand-monogram     { border-radius: 0; box-shadow: none; }
+
+/* ---------- 2. Tipografia: solo grotesque, gerarchia per peso e corpo ---------- */
+html[data-style="swiss"] .hero-title,
+html[data-style="swiss"] .section-title,
+html[data-style="swiss"] .card-title,
+html[data-style="swiss"] .modal-title,
+html[data-style="swiss"] .synthesis-title {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: -0.03em;
+}
+html[data-style="swiss"] .hero-title em { font-style: normal; }
+html[data-style="swiss"] .hero-quote,
+html[data-style="swiss"] .card-quote,
+html[data-style="swiss"] .modal-quote-box,
+html[data-style="swiss"] .synthesis-article,
+html[data-style="swiss"] .synthesis-article blockquote {
+  font-family: var(--font-sans);
+  font-style: normal;
+}
+html[data-style="swiss"] .nav-link,
+html[data-style="swiss"] .badge,
+html[data-style="swiss"] .filter-label,
+html[data-style="swiss"] .meta-label,
+html[data-style="swiss"] .modal-section-title,
+html[data-style="swiss"] .cat-explore-link,
+html[data-style="swiss"] .btn-detail {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: .7rem;
+  font-weight: 700;
+  font-family: var(--font-sans);
+}
+html[data-style="swiss"] .btn {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: var(--step--1);
+}
+html[data-style="swiss"] .section-label {
+  background: var(--accent-vermilion);
+  color: #ffffff;
+  padding: .25rem .6rem;
+}
+html[data-style="swiss"] .stat-num { font-family: var(--font-sans); font-weight: 800; }
+
+/* ---------- 3. Regole strutturali al posto di bordi morbidi ---------- */
+html[data-style="swiss"] .site-header {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  background: var(--bg-app);
+  border-bottom: 2px solid var(--accent-vermilion);
+}
+html[data-style="swiss"] .reading-bar { background: var(--accent-vermilion); }
+html[data-style="swiss"] .hero-meta-grid {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--border-medium);
+  border-bottom: 1px solid var(--border-medium);
+  border-radius: 0;
+  padding: var(--space-sm) 0;
+}
+html[data-style="swiss"] .hero-meta-item { border-right: 1px solid var(--border-subtle); padding-right: var(--space-md); }
+html[data-style="swiss"] .hero-meta-item:last-child { border-right: 0; }
+
+/* ---------- 4. Archivio: griglia a celle con filetti, non card flottanti ---------- */
+html[data-style="swiss"] .sources-grid { gap: 0; border-top: 1px solid var(--border-medium); }
+html[data-style="swiss"] .source-card {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--border-subtle);
+  border-right: 1px solid var(--border-subtle);
+  border-left: 0 !important;
+  border-radius: 0;
+  box-shadow: none;
+  transform: none;
+  padding: var(--space-lg) var(--space-md);
+}
+html[data-style="swiss"] .source-card:hover { transform: none; box-shadow: none; background: var(--bg-surface); }
+html[data-style="swiss"] .source-card.is-primary::after {
+  content: "";
+  position: absolute;
+  top: -1px; left: 0;
+  width: 2.5rem; height: 3px;
+  background: var(--accent-vermilion);
+}
+html[data-style="swiss"] .badge,
+html[data-style="swiss"] .tag-chip,
+html[data-style="swiss"] .card-id-badge,
+html[data-style="swiss"] .cluster-chip { border-radius: 0; }
+html[data-style="swiss"] .cluster-chip.is-active {
+  background: var(--accent-vermilion);
+  border-color: var(--accent-vermilion);
+  color: #ffffff;
+}
+
+/* ---------- 5. Superfici piatte ovunque ---------- */
+html[data-style="swiss"] .stat-card,
+html[data-style="swiss"] .dist-box,
+html[data-style="swiss"] .category-card,
+html[data-style="swiss"] .controls-container,
+html[data-style="swiss"] .toc-box,
+html[data-style="swiss"] .reader-controls,
+html[data-style="swiss"] .gap-card,
+html[data-style="swiss"] .action-item,
+html[data-style="swiss"] .insight-box,
+html[data-style="swiss"] .modal-dialog,
+html[data-style="swiss"] .modal-header,
+html[data-style="swiss"] .modal-footer,
+html[data-style="swiss"] .search-input,
+html[data-style="swiss"] .filter-select,
+html[data-style="swiss"] .btn-reset,
+html[data-style="swiss"] .view-btn,
+html[data-style="swiss"] .theme-btn,
+html[data-style="swiss"] .modal-close-btn,
+html[data-style="swiss"] .cite-tag { border-radius: 0; box-shadow: none; }
+html[data-style="swiss"] .stat-card:hover,
+html[data-style="swiss"] .category-card:hover { transform: none; }
+
+/* ---------- 6. Sintesi: titoli di capitolo con regola rossa ---------- */
+html[data-style="swiss"] .synthesis-article h2 { border-bottom: 2px solid var(--accent-vermilion); }
+html[data-style="swiss"] .comparison-table th { border-bottom: 2px solid var(--accent-vermilion); }
