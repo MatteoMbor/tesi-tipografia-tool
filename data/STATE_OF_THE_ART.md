@@ -63,7 +63,11 @@ Per evitare una rassegna acritica, la letteratura raccolta evidenzia quattro ins
 
 ### Dialettica 3: Piattaforme Chiuse vs Ecosistema Libero (La Monocultura del Cloud)
 - **Tesi (Il Giardino Chiuso):** Software monolitici e piattaforme proprietarie in cloud (Adobe Creative Cloud, Figma, Canva) offrono velocità collaborativa e interfacce levigate a fronte di abbonamenti ricorsivi e formati binari blindati.
-- **Antitesi (La Monocultura Algoritmica):** **Florian Cramer** (`[ETH-005]`) smaschera la standardizzazione visiva globale indotta da tali piattaforme: layout omologati, template ripetuti all'infinito e sorveglianza dei dati (`[ETH-009]`).
+- **Antitesi (La Monocultura Algoritmica):** **Shan Tang** (`[ETH-005]`) dimostra 
+empiricamente come i database di template integrati nelle piattaforme di design 
+online producano una convergenza stilistica misurabile: più i designer si 
+appoggiano a librerie preconfezionate, più i loro output convergono verso 
+un'estetica omologata e statisticamente prevedibile.(`[ETH-009]`).
 - **Sintesi Progettuale (Open Source Infrastructure):** L'ecosistema fondato su **UFO** (`[TMA-010]`), **FontTools** (`[REP-001]`), **opentype.js** (`[REP-002]`), **Paper.js** (`[TMD-002]`) e sostenuto da collettivi indipendenti come **Collletttivo** (`[EXP-005]`) e **Velvetyne** (`[EXP-006]`). Il codice aperto e il self-hosting dei font garantiscono che l'infrastruttura di ricerca rimanga libera, modificabile e indipendente da arbitri commerciali.
 
 ### Dialettica 4: Galleria Statica vs Processo Vivente (Research-through-Design)
