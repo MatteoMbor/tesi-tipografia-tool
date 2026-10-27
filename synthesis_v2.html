@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stato dell'Arte &amp; Sintesi Critica | Tesi ISIA 2026</title>
+  <meta name="description" content="Sintesi teorica, genealogia delle discontinuità tecnologiche, dialettiche, gap di ricerca e piano operativo.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="swiss.css">
+</head>
+<body>
+
+  <!-- Barra di Progresso Lettura Superiore -->
+  <div class="reading-bar" aria-hidden="true"></div>
+
+  <!-- Header & Navigazione Globale -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand" aria-label="Home page archivio tesi">
+        <span class="brand-monogram">TB</span>
+        <div class="brand-text">
+          <span class="brand-title">Tipografia &amp; Tool</span>
+          <span class="brand-meta">ISIA 2026 &bull; Matteo Borghese</span>
+        </div>
+      </a>
+
+      <nav aria-label="Navigazione principale">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="sources.html" class="nav-link">Archivio (<span class="js-source-count">45</span>)</a></li>
+          <li><a href="synthesis.html" class="nav-link active">Sintesi</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-btn" id="themeToggleBtn" aria-label="Cambia tema chiaro/scuro">
+          <!-- Icona iniettata via JS -->
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+
+      <div class="synthesis-layout">
+        
+        <!-- SIDEBAR STICKY: INDICE DEI CONTENUTI & CONTROLLI LETTURA -->
+        <aside class="synthesis-sidebar">
+          
+          <!-- Indice di Navigazione (ToC) -->
+          <nav class="toc-box" aria-label="Indice del documento">
+            <div class="toc-title">Indice dei Capitoli</div>
+            <ul class="toc-list">
+              <li><a href="#sec-1" class="toc-link active">1. L'Ecologia Strumentale</a></li>
+              <li><a href="#sec-2" class="toc-link">2. Genealogia delle Discontinuità</a></li>
+              <li><a href="#sec-3" class="toc-link">3. Quattro Coppie Dialettiche</a></li>
+              <li><a href="#sec-4" class="toc-link">4. Evidenza vs Hype</a></li>
+              <li><a href="#sec-5" class="toc-link">5. Specificità 2024–2026</a></li>
+              <li><a href="#sec-6" class="toc-link">6. Prospettiva Europea e Italiana</a></li>
+              <li><a href="#sec-7" class="toc-link">7. Gap di Ricerca (GAP 1–7)</a></li>
+              <li><a href="#sec-8" class="toc-link">8. 10 Azioni Operative</a></li>
+            </ul>
+          </nav>
+
+          <!-- Controlli di Lettura (Reader Controls) -->
+          <div class="reader-controls">
+            <div class="reader-control-row">
+              <span class="reader-control-label">Carattere</span>
+              <div class="btn-group">
+                <button type="button" class="btn-ctrl active" id="btnFontSerif">Serif</button>
+                <button type="button" class="btn-ctrl" id="btnFontSans">Sans</button>
+              </div>
+            </div>
+            <div class="reader-control-row">
+              <span class="reader-control-label">Dimensione</span>
+              <div class="btn-group">
+                <button type="button" class="btn-ctrl" id="btnFontMinus" title="Riduci testo">A-</button>
+                <button type="button" class="btn-ctrl" id="btnFontReset" title="Dimensione standard">100%</button>
+                <button type="button" class="btn-ctrl" id="btnFontPlus" title="Ingrandisci testo">A+</button>
+              </div>
+            </div>
+          </div>
+
+          <div style="font-family: var(--font-mono); font-size: var(--step--2); color: var(--text-muted); line-height: 1.5;">
+            💡 <em>Suggerimento: Clicca su qualsiasi citazione <span class="cite-tag">[ID]</span> per visualizzare istantaneamente la scheda analitica completa.</em>
+          </div>
+
+        </aside>
+
+        <!-- ARTICOLO LONG-FORM: STATO DELL'ARTE -->
+        <article class="synthesis-article">
+
+          <!-- Intestazione Saggio -->
+          <header class="synthesis-header">
+            <div class="hero-pill" style="margin-bottom: var(--space-xs);">Sintesi della ricerca</div>
+            <h1 class="synthesis-title">
+              Stato dell'arte: lettere, strumenti, codice
+            </h1>
+            <p class="plain-lead">
+              In breve: la forma delle lettere dipende dagli strumenti con cui le si fa.
+              Questa pagina racconta quella storia e indica i buchi che il prototipo della tesi prova a coprire.
+              I testi lunghi restano quelli dello saggio; le schede si aprono cliccando sugli ID tipo <span class="cite-tag">[REP-002]</span>.
+            </p>
+            <div class="synthesis-meta">
+              <strong>Tesi magistrale in Design (ISIA)</strong> &bull; Matteo Borghese<br>
+              <strong>25 ottobre 2026</strong> &bull; metodo: progettare per capire (Research-through-Design)
+            </div>
+          </header>
+
+          <!-- SEZIONE 1 -->
+          <section id="sec-1">
+            <h2>1. Introduzione: L'Ecologia Strumentale della Lettera</h2>
+            
+            <p>
+              La tipografia non è mai stata una disciplina puramente visiva, né una neutrale trascrizione grafica del linguaggio parlato. 
+              Come ha dimostrato <strong>Giovanni Lussu</strong> (<span class="cite-tag">[TYP-002]</span>), l'illusione fonocentrica che riduce 
+              la scrittura a un mero servo fonetico ha occultato per secoli la natura eminentemente spaziale, iconica e materica del segno 
+              tipografico. Al contempo, la forma della lettera non si genera in un vuoto ideale di pura astrazione geometrica: essa è il 
+              precipitato visibile di una specifica <strong>ecologia di strumenti</strong> materiali, economici e computazionali.
+            </p>
+
+            <p>
+              Nella contemporaneità post-digitale (2019–2026), l'intersezione tra <strong>tipografia come forma autonoma (Filone A1)</strong> 
+              e <strong>tool-making come pratica progettuale costitutiva (Filone A2)</strong> vive una trasformazione radicale. L'ipotesi di lavoro 
+              di questa ricerca sostiene che:
+            </p>
+
+            <blockquote>
+              «Ogni epoca tipografica è resa possibile da una specifica ecologia di strumenti. Nella pratica contemporanea il passaggio decisivo 
+              non è l'uso di un tool, ma la progettazione del tool da parte del designer: il processo diventa progettazione di un sistema capace 
+              di generare risultati non completamente prevedibili. L'AI radicalizza questo passaggio senza abolire la necessità di un'intenzione 
+              progettuale, di un metodo critico e di un controllo formale.»
+            </blockquote>
+
+            <p>
+              Lungi dal cadere nel determinismo tecnologico — per cui la tecnologia "causerebbe" meccanicamente il linguaggio visivo — l'indagine 
+              adotta la prospettiva post-fenomenologica di <strong>Peter-Paul Verbeek</strong> (<span class="cite-tag">[ACA-011]</span>) e di 
+              <strong>Gilbert Simondon</strong> (<span class="cite-tag">[EPI-007]</span>): lo strumento e il designer si co-costituiscono a vicenda. 
+              Lo strumento non è un mezzo esterno (ausilio), ma il dispositivo epistemologico entro cui si delineano le condizioni stesse di possibilità della forma.
+            </p>
+          </section>
+
+          <!-- SEZIONE 2 -->
+          <section id="sec-2">
+            <h2>2. Genealogia delle Discontinuità Tecnologiche: Dal Piombo all'Agente Neurale</h2>
+            
+            <p>
+              Per comprendere lo stato dell'arte attuale, è imperativo demistificare le "false novità" e identificare le autentiche cesure 
+              strutturali che hanno riconfigurato la materia tipografica:
+            </p>
+
+            <pre><code>[1] Meccanica Industriale (1450–1950) ──> Carattere in piombo: blocco rigido, corpo fisso, ortogonalità.
+[2] Fotocomposizione (1950–1980)      ──> Film e luce: liberazione dall'ortogonalità, sovrapposizioni ottiche.
+[3] Desktop Publishing (1984–1995)    ──> PostScript &amp; Curve Bézier: la lettera diventa codice matematico.
+[4] Creative Coding &amp; UFO (1995–2016) ──> Scriptability aperta: il designer programma il software di disegno.
+[5] OpenType Variations (2016–2024)   ──> Spazi a n-dimensioni: interpolazione continua multi-asse e colore nativo.
+[6] Agenti Neurali &amp; LLM (2022–2026)  ──> Modelli generativi vettoriali e co-programmazione del tool.</code></pre>
+
+            <h3>2.1 La Fotocomposizione e il Tramonto del Blocco Fisico</h3>
+            <p>
+              Come documenta <strong>Wolfgang Weingart</strong> nel manoscritto originale del 1964 (<span class="cite-tag">[TYP-001]</span>), 
+              l'avvento della fotocomposizione e delle pellicole litografiche fu accolto dai conservatori come un "gioco senza regole" che minacciava 
+              l'etica dell'artigianato manuale descritta da <strong>Eric Gill</strong> (<span class="cite-tag">[TYP-003]</span>). In realtà, 
+              la fotocomposizione consentì a Weingart di trasformare la composizione da assemblaggio di blocchi metallici opachi a un campo spaziale 
+              poroso fatto di pellicole trasparenti sovrapposte in camera oscura, inaugurando la <em>New Wave</em> di Basilea.
+            </p>
+
+            <h3>2.2 La Rivoluzione PostScript e l'Hacking di LettError</h3>
+            <p>
+              La vera discontinuità epistemica verso il software non avviene con il semplice uso del Macintosh nel 1984, ma con la consapevolezza 
+              che il font digitale è un programma eseguibile. Nel 1990, con <strong>FF Beowolf</strong> (<span class="cite-tag">[TMA-001]</span>), 
+              <strong>Erik van Blokland</strong> e <strong>Just van Rossum</strong> compiono l'atto di tool-making più eversivo del Novecento: 
+              hackerano le istruzioni del linguaggio PostScript inserendo la funzione <code>freakto</code>. La lettera cessa per sempre di essere un timbro 
+              industriale identico a sé stesso per diventare un algoritmo generativo che muta stocasticamente a ogni invocazione del rasterizzatore.
+            </p>
+
+            <h3>2.3 L'Epoca dei Font Variabili e l'Apertura dei Formati (UFO &amp; OpenType 1.8)</h3>
+            <p>
+              La nascita del formato <strong>UFO</strong> (<span class="cite-tag">[TMA-010]</span>) nei primi anni 2000 per opera di Tal Leming, 
+              Just van Rossum e Van Blokland disaccoppia il disegno tipografico dai software proprietari monolitici. Con l'avvento di 
+              <strong>OpenType Variations</strong> (<span class="cite-tag">[PRJ-002]</span>, ISO/IEC 14496-22), annunciato nel 2016 e giunto a piena 
+              maturità web nel 2024–2026, lo spazio di design cessa di essere una serie discreta di file separati (Light, Regular, Bold) per trasformarsi 
+              in un continuo poliedrico a $n$ dimensioni. Casi studio contemporanei come <strong>Nabla</strong> (<span class="cite-tag">[EXP-002]</span>), 
+              <strong>Recursive</strong> (<span class="cite-tag">[TMA-011]</span>) e le ricerche sull'Higher Order Interpolation di 
+              <strong>Underware</strong> (<span class="cite-tag">[TMA-006]</span>, <span class="cite-tag">[VID-002]</span>) dimostrano che il file 
+              font contemporaneo è a tutti gli effetti un motore vettoriale volumetrico e animabile.
+            </p>
+
+            <h3>2.4 La Svolta dell'AI Generativa (2022–2026)</h3>
+            <p>
+              L'intelligenza artificiale generativa contemporanea non cancella le svolte precedenti, ma le radicalizza lungo due direttrici distinte:
+            </p>
+            <p>
+              <strong>1. Sintesi Vettoriale Differenziabile:</strong> L'evoluzione da modelli raster superficiali (GANs, Attribute2Font <span class="cite-tag">[AI-003]</span>) 
+              a modelli vettoriali geometrici puri (DeepVecFont <span class="cite-tag">[AI-004]</span>, DeepVecFont-v2 <span class="cite-tag">[AI-005]</span>, 
+              Im2Vec <span class="cite-tag">[AI-012]</span>, Word-As-Image <span class="cite-tag">[AI-001]</span>) permette alle reti neurali di operare 
+              direttamente sui punti di controllo Bézier, colmando il divario tra Deep Learning e standard tipografici industriali.
+            </p>
+            <p>
+              <strong>2. LLM come Meta-Tool di Scrittura Codice:</strong> Come analizzato in <span class="cite-tag">[AI-011]</span>, la prassi contemporanea 
+              vede i Large Language Models impiegati non per generare immagini di lettere, ma come agenti capaci di generare istantaneamente codice Python 
+              (<code>fonttools</code>, <code>DrawBot</code>) e shader WebGL su specifica del designer, abbattendo la barriera tecnica del creative coding.
+            </p>
+          </section>
+
+          <!-- SEZIONE 3 -->
+          <section id="sec-3">
+            <h2>3. Quattro Coppie Dialettiche a Confronto</h2>
+            
+            <p>
+              Per evitare una rassegna acritica, la letteratura raccolta evidenzia quattro insanabili conflitti teorici e metodologici che attraversano la disciplina:
+            </p>
+
+            <h3>Dialettica 1: Trasparenza Funzionale vs Autonomia Plastica (Il Calice Spezzato)</h3>
+            <p>
+              <strong>Tesi (Il Calice di Cristallo):</strong> Da <strong>Jan Tschichold</strong> (<span class="cite-tag">[TYP-004]</span>) a 
+              <strong>Beatrice Warde</strong> (<span class="cite-tag">[TYP-005]</span>) fino a <strong>Emil Ruder</strong> (<span class="cite-tag">[TYP-009]</span>), 
+              la tipografia deve essere "invisibile", un servitore trasparente che veicola il pensiero dell'autore senza frapporre la propria materia tra testo e lettore.
+            </p>
+            <p>
+              <strong>Antitesi (La Decostruzione e l'Atipografia):</strong> Da <strong>David Carson</strong> (<span class="cite-tag">[TYP-007]</span>) e 
+              <strong>Katherine McCoy</strong> (<span class="cite-tag">[ACA-007]</span>) fino alle ricerche sull'Atipografia del candidato (<span class="cite-tag">[EXP-012]</span>), 
+              la forma rivendica la propria autonomia opaca. La lettera cessa di essere letta istintivamente e richiede di essere guardata come architettura complessa.
+            </p>
+            <p>
+              <strong>Sintesi Contemporanea e Tensione Giuridica (WCAG 2.2):</strong> Il conflitto non è più solo estetico, ma normativo. Le direttive 
+              di accessibilità <strong>WCAG 2.2</strong> (<span class="cite-tag">[ETH-003]</span>) impongono rapporti di contrasto (1.4.3) e reflow rigidi 
+              che penalizzano l'espressività decostruttiva. La risposta progettuale avanzata consiste nel superare la pagina statica mediante interfacce responsive 
+              dove l'utente può calibrare il cursore tra "massima astrazione scultorea" e "decodifica ad alto contrasto".
+            </p>
+
+            <h3>Dialettica 2: Automazione Monopolistica vs Authorship Artigianale (L'Apparato di Flusser)</h3>
+            <p>
+              <strong>Tesi (La Promessa Generativa):</strong> Piattaforme commerciali no-code e generatori text-to-image promettono la democratizzazione della creatività ("basta un prompt per fare un poster").
+            </p>
+            <p>
+              <strong>Antitesi (La Critica del De-Skilling):</strong> <strong>Silvio Lorusso</strong> (<span class="cite-tag">[ETH-010]</span>) e 
+              <strong>Vilém Flusser</strong> (<span class="cite-tag">[EPI-006]</span>) dimostrano che l'utente che si limita a usare un'interfaccia predeterminata 
+              subisce una perdita drammatica di competenze pratiche (<em>de-skilling</em>), diventando un operatore passivo governato dal "programma dell'apparato".
+            </p>
+            <p>
+              <strong>Sintesi Progettuale (Tool-Making come Emancipazione):</strong> La via indicata da <strong>Robin Sloan</strong> (<span class="cite-tag">[EPI-010]</span>), 
+              da <strong>LettError</strong> (<span class="cite-tag">[TMA-001]</span>) e da <strong>Jürg Lehni</strong> (<span class="cite-tag">[TMD-001]</span>, <span class="cite-tag">[VID-007]</span>): 
+              il designer riacquista sovranità progettuale solo quando programma, scripta o addestra il proprio strumento su misura, trasformando il modello generativo 
+              in un partner laboratoriale trasparente.
+            </p>
+
+            <h3>Dialettica 3: Piattaforme Chiuse vs Ecosistema Libero (La Monocultura del Cloud)</h3>
+            <p>
+              <strong>Tesi (Il Giardino Chiuso):</strong> Software monolitici e piattaforme proprietarie in cloud (Adobe Creative Cloud, Figma, Canva) offrono velocità 
+              collaborativa e interfacce levigate a fronte di abbonamenti ricorsivi e formati binari blindati.
+            </p>
+            <p>
+              <strong>Antitesi (La Monocultura Algoritmica):</strong> <strong>Florian Cramer</strong> (<span class="cite-tag">[ETH-005]</span>) smaschera 
+              la standardizzazione visiva globale indotta da tali piattaforme: layout omologati, template ripetuti all'infinito e sorveglianza dei dati (<span class="cite-tag">[ETH-009]</span>).
+            </p>
+            <p>
+              <strong>Sintesi Progettuale (Open Source Infrastructure):</strong> L'ecosistema fondato su <strong>UFO</strong> (<span class="cite-tag">[TMA-010]</span>), 
+              <strong>FontTools</strong> (<span class="cite-tag">[REP-001]</span>), <strong>opentype.js</strong> (<span class="cite-tag">[REP-002]</span>), 
+              <strong>Paper.js</strong> (<span class="cite-tag">[TMD-002]</span>) e sostenuto da collettivi indipendenti come <strong>Collletttivo</strong> (<span class="cite-tag">[EXP-005]</span>) 
+              e <strong>Velvetyne</strong> (<span class="cite-tag">[EXP-006]</span>). Il codice aperto e il self-hosting dei font garantiscono che l'infrastruttura 
+              di ricerca rimanga libera, modificabile e indipendente da arbitri commerciali.
+            </p>
+
+            <h3>Dialettica 4: Galleria Statica vs Processo Vivente (Research-through-Design)</h3>
+            <p>
+              <strong>Tesi (La Sindrome da Portfolio):</strong> La documentazione tradizionale del design si limita a esibire rendering finiti patinati, occultando 
+              i fallimenti, le iterazioni, le righe di codice e le scelte di metodo.
+            </p>
+            <p>
+              <strong>Antitesi (La Rigidezza Scientista):</strong> Tentativi di applicare protocolli positivisti quantitativi che soffocano la specificità e la ricchezza poetica dell'artefatto visuale.
+            </p>
+            <p>
+              <strong>Sintesi Metodologica (Living Process Documentation):</strong> Sulla scorta di <strong>John Zimmerman</strong> (<span class="cite-tag">[ACA-002]</span>), 
+              <strong>Bill Gaver</strong> (<span class="cite-tag">[ACA-003]</span>) e del framework <span class="cite-tag">[PRJ-008]</span>, il sito web di tesi 
+              deve farsi contemporaneamente <em>opera, archivio e strumento</em>. La documentazione non è un'appendice a valle, ma la trasparenza viva dei parametri che generano la forma tipografica.
+            </p>
+          </section>
+
+          <!-- SEZIONE 4 -->
+          <section id="sec-4">
+            <h2>4. Evidenza Documentata vs Hype Promozionale</h2>
+            
+            <p>
+              La ricerca condotta impone di distinguere nettamente le conquiste tecniche verificabili dalle narrazioni pubblicitarie dell'industria tecnologica:
+            </p>
+
+            <div class="comparison-table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th style="width: 22%;">Ambito Disciplinare</th>
+                    <th style="width: 38%;">Hype Promozionale Commerciale</th>
+                    <th style="width: 40%;">Evidenza Tecnica Verificata (Stato dell'Arte)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>AI Text Generation</strong></td>
+                    <td class="col-hype">«L'AI sostituisce interamente il type designer e disegna font perfetti dal testo.»</td>
+                    <td class="col-evidenza">
+                      I modelli di diffusione raster producono lettere incoerenti o non ortografiche (risolto parzialmente da TextDiffuser-2 <span class="cite-tag">[AI-006]</span>). 
+                      La sintesi vettoriale neurale nativa richiede architetture complesse differenziabili (DeepVecFont-v2 <span class="cite-tag">[AI-005]</span>) e necessita 
+                      comunque della supervisione umana per il kerning, la spaziatura e le tabelle OpenType.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Creative Coding</strong></td>
+                    <td class="col-hype">«Il codice elimina la necessità di studiare la storia della tipografia.»</td>
+                    <td class="col-evidenza">
+                      Il codice amplifica i principi storici: come mostrano Madsen (<span class="cite-tag">[TMD-003]</span>) e Rodenbröker (<span class="cite-tag">[TMD-007]</span>), 
+                      programmare un sistema tipografico richiede una comprensione millimetrica delle proporzioni classiche e del ritmo visivo formalizzato da Ruder (<span class="cite-tag">[TYP-009]</span>).
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Variable Fonts</strong></td>
+                    <td class="col-hype">«I font variabili sono usati solo per comprimere i kilobyte dei siti web aziendali.»</td>
+                    <td class="col-evidenza">
+                      I variable fonts sono matrici plastiche a $n$ dimensioni capaci di animazione vettoriale autonoma (Nabla <span class="cite-tag">[EXP-002]</span>, 
+                      Underware HOI <span class="cite-tag">[TMA-006]</span>, Typearture <span class="cite-tag">[EXP-010]</span>) e reattività a sensori fisici su browser (<span class="cite-tag">[PRJ-006]</span>).
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Tool No-Code</strong></td>
+                    <td class="col-hype">«I tool no-code rendono chiunque un designer totale con un clic.»</td>
+                    <td class="col-evidenza">
+                      Le interfacce chiuse restringono lo spazio delle varianti a combinazioni previste dall'azienda produttrice, causando omologazione formale (<span class="cite-tag">[ETH-005]</span>) 
+                      e de-skilling cognitivo (<span class="cite-tag">[ETH-010]</span>).
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <!-- SEZIONE 5 -->
+          <section id="sec-5">
+            <h2>5. La Specificità dell'Orizzonte Contemporaneo (2024–2026)</h2>
+            
+            <p>Cosa differenzia in modo inequivocabile la prassi del 2024–2026 dalle svolte degli anni '90 o del 2016?</p>
+            
+            <p>
+              <strong>1. La Convergenza del Web Platform come Ambiente di Calcolo Nativo:</strong> Il browser web non è più un visualizzatore di pagine ipertestuali, 
+              ma una macchina computazionale grafica ad altissime prestazioni grazie a <strong>WebGL 2.0</strong>, <strong>WebAssembly</strong> (<code>harfbuzzjs</code> <span class="cite-tag">[PRJ-007]</span>) 
+              e <strong>OffscreenCanvas su Web Workers</strong> (<span class="cite-tag">[PRJ-003]</span>). È oggi possibile eseguire il parsing di file binari di caratteri, 
+              deformarne le spline ed eseguirne il rendering vettoriale a 120fps senza passare per alcun software desktop installato.
+            </p>
+            <p>
+              <strong>2. Il File Font come Contenitore di Logica Policroma e Cinetica (COLRv1):</strong> La standardizzazione di COLRv1 (<span class="cite-tag">[EXP-002]</span>, 
+              <span class="cite-tag">[VID-010]</span>) unisce la grafica vettoriale a strati, le palette dinamiche CSS (<code>font-palette</code>) e gli assi variabili, 
+              rendendo obsoleto il ricorso a complessi rendering 3D esterni per visualizzare volumetrie tipografiche.
+            </p>
+            <p>
+              <strong>3. L'Ingegneria Tipografica Assistita da Agenti di Codice:</strong> L'emergere di ambienti in cui il designer impartisce istruzioni logico-formali 
+              ad agenti computazionali per farsi generare script di automazione personalizzati (<span class="cite-tag">[AI-011]</span>). La programmazione cessa di essere 
+              una barriera binaria (sapere/non sapere programmare) per diventare un dialogo di co-progettazione metodologica.
+            </p>
+          </section>
+
+          <!-- SEZIONE 6 -->
+          <section id="sec-6">
+            <h2>6. La Prospettiva Europea e Italiana</h2>
+            
+            <p>
+              La ricerca valorizza con rigore il panorama teorico e progettuale italiano ed europeo, storicamente incline a una profonda riflessione critica sulla materialità e sull'etica:
+            </p>
+
+            <p>
+              <strong>Italia:</strong> Il pensiero decostruttivo di <strong>Giovanni Lussu</strong> (<span class="cite-tag">[TYP-002]</span>) contro il fonocentrismo; 
+              l'impegno open-source e cooperativo di <strong>Collletttivo</strong> a Milano (<span class="cite-tag">[EXP-005]</span>); la traduzione del modernismo svizzero 
+              in algoritmo interattivo di <strong>Giovanni Abbatepaolo</strong> con <em>Hofmann 1.0.0</em> (<span class="cite-tag">[TMA-008]</span>); la critica dell'ideologia 
+              dell'interfaccia di <strong>Silvio Lorusso</strong> (<span class="cite-tag">[ETH-010]</span>); e le ricerche universitarie sulle forme plastiche della scrittura (<span class="cite-tag">[TYP-010]</span>).
+            </p>
+            <p>
+              <strong>Europa (Svizzera, Paesi Bassi, Francia):</strong> Dalla rivoluzione pedagogica della scuola di Basilea (<strong>Weingart</strong> <span class="cite-tag">[TYP-001]</span>, 
+              <strong>Ruder</strong> <span class="cite-tag">[TYP-009]</span>) all'eccellenza contemporanea di <strong>Studio Feixen</strong> (<span class="cite-tag">[EXP-003]</span>) 
+              e <strong>Jürg Lehni</strong> (<span class="cite-tag">[TMD-001]</span>); dall'approccio cinetico olandese di <strong>Studio Dumbar</strong> (<span class="cite-tag">[EXP-004]</span>) 
+              e <strong>Underware</strong> (<span class="cite-tag">[TMA-006]</span>) fino alla militanza dei caratteri liberi di <strong>Velvetyne</strong> a Parigi (<span class="cite-tag">[EXP-006]</span>).
+            </p>
+          </section>
+
+          <!-- SEZIONE 7 -->
+          <section id="sec-7">
+            <h2>7. Sintesi delle Lacune di Ricerca (Research Gaps)</h2>
+            
+            <p>
+              Dall'incrocio delle fonti selezionate emergono 7 lacune che la tesi prova a coprire:
+            </p>
+
+            <div class="gap-cards-list">
+              <div class="gap-card">
+                <div class="gap-card-header">
+                  <span class="gap-badge">GAP-01</span>
+                  <span class="gap-title">Assenza di Sistemi Ibridi tra Spazio Parametrico e Atipografia Concettuale</span>
+                </div>
+                <p class="gap-desc">
+                  I software di variable font attuali testano variazioni standard (peso, larghezza), mentre mancano strumenti web aperti che permettano 
+                  la decostruzione progressiva del segno secondo il modello di mimetismo concettuale dell'Atipografia (<span class="cite-tag">[EXP-012]</span>).
+                </p>
+              </div>
+
+              <div class="gap-card">
+                <div class="gap-card-header">
+                  <span class="gap-badge">GAP-02</span>
+                  <span class="gap-title">Separazione tra Ambiente di Scrittura e Deformazione Vettoriale</span>
+                </div>
+                <p class="gap-desc">
+                  Gli strumenti di visual design lavorano a valle (rasterizzando il testo), mentre gli editor di font lavorano a monte (sul singolo glifo isolato). 
+                  Manca un ambiente unificato in cui digitare un testo lungo e vederne i contorni vettoriali reagire a forze fisiche o dati in tempo reale.
+                </p>
+              </div>
+
+              <div class="gap-card">
+                <div class="gap-card-header">
+                  <span class="gap-badge">GAP-03</span>
+                  <span class="gap-title">Mancanza di Metriche Empiriche per la Soglia di Leggibilità Formale</span>
+                </div>
+                <p class="gap-desc">
+                  Esistono le regole binarie delle WCAG 2.2 (<span class="cite-tag">[ETH-003]</span>) e le teorie artistiche sull'illegibilità, ma manca un modello 
+                  quantitativo che metta in relazione il tempo medio di decifrazione del glifo astratto con la conservazione delle sue controforme critiche.
+                </p>
+              </div>
+
+              <div class="gap-card">
+                <div class="gap-card-header">
+                  <span class="gap-badge">GAP-04</span>
+                  <span class="gap-title">Sconnessione tra Formazione di Type Design e Web Performance</span>
+                </div>
+                <p class="gap-desc">
+                  Molti esperimenti di kinetic typography risultano proibitivi su browser mobili per l'uso sconsiderato di geometrie non ottimizzate. 
+                  È necessario documentare un workflow rigoroso basato su Web Workers e Signed Distance Fields (<span class="cite-tag">[PRJ-003]</span>, <span class="cite-tag">[REP-004]</span>).
+                </p>
+              </div>
+
+              <div class="gap-card">
+                <div class="gap-card-header">
+                  <span class="gap-badge">GAP-05</span>
+                  <span class="gap-title">Deficit di Documentazione del Codice nei Case Study degli Studi</span>
+                </div>
+                <p class="gap-desc">
+                  Studi rinomati (come DIA Studio <span class="cite-tag">[EXP-001]</span>) mostrano il risultato sbalorditivo dei propri generatori, ma tengono il codice 
+                  celato per motivi di segreto industriale.
+                </p>
+              </div>
+
+              <div class="gap-card">
+                <div class="gap-card-header">
+                  <span class="gap-badge">GAP-06</span>
+                  <span class="gap-title">Mancanza di Strumenti di Esportazione Vettoriale Diretta su Browser</span>
+                </div>
+                <p class="gap-desc">
+                  La maggior parte dei tool generativi web esporta video o immagini raster (PNG/MP4), impedendo all'utente di riutilizzare la forma tipografica 
+                  generata all'interno di software professionali (come file SVG pulito o file font <code>.otf</code>/<code>.woff2</code>).
+                </p>
+              </div>
+
+              <div class="gap-card">
+                <div class="gap-card-header">
+                  <span class="gap-badge">GAP-07</span>
+                  <span class="gap-title">Riconciliazione tra Sostenibilità Termodinamica e Generazione Formale</span>
+                </div>
+                <p class="gap-desc">
+                  Mancanza di un modello di comparazione etica che dimostri la superiorità ecologica del codice algoritmico leggero lato client 
+                  rispetto all'inferenza pesante su server GPU cloud (<span class="cite-tag">[ETH-006]</span>).
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- SEZIONE 8 -->
+          <section id="sec-8">
+            <h2>8. Prossime 10 Azioni Operative Concrete per il Candidato</h2>
+            
+            <p>
+              Dal piano teorico al manufatto progettuale (Parte B), ecco la sequenza delle prossime azioni operative per la tesi:
+            </p>
+
+            <ol class="actions-list">
+              <li class="action-item">
+                <div class="action-number">1</div>
+                <div class="action-content">
+                  <div class="action-title">Consolidamento Dataset Glifi di Partenza</div>
+                  <div class="action-desc">
+                    Selezione di 3 famiglie tipografiche open-source complementari: <em>Apfel Grotezk</em> (<span class="cite-tag">[EXP-005]</span>), 
+                    <em>Recursive</em> (<span class="cite-tag">[TMA-011]</span>) e <em>Terminal Grotesque</em> (<span class="cite-tag">[EXP-006]</span>).
+                  </div>
+                </div>
+              </li>
+
+              <li class="action-item">
+                <div class="action-number">2</div>
+                <div class="action-content">
+                  <div class="action-title">Architettura Web Worker con opentype.js</div>
+                  <div class="action-desc">
+                    Implementare lo scheletro dell'architettura web in Vanilla JavaScript, impostando un Web Worker dedicato con <code>opentype.js</code> 
+                    (<span class="cite-tag">[REP-002]</span>, <span class="cite-tag">[PRJ-003]</span>) per il parsing asincrono dei file binari.
+                  </div>
+                </div>
+              </li>
+
+              <li class="action-item">
+                <div class="action-number">3</div>
+                <div class="action-content">
+                  <div class="action-title">Algoritmi di Deformazione Nodi Bézier su HTML5 Canvas</div>
+                  <div class="action-desc">
+                    Codifica di 4 algoritmi specifici: (a) offset sinusoidale; (b) compressione gravitazionale delle controforme; (c) dilatazione stocastica 
+                    stile <em>Beowolf</em>; (d) astrazione progressiva verso l'Atipografia.
+                  </div>
+                </div>
+              </li>
+
+              <li class="action-item">
+                <div class="action-number">4</div>
+                <div class="action-content">
+                  <div class="action-title">Modulo di Mappatura Ingressi Utente e Audio</div>
+                  <div class="action-desc">
+                    Costruzione del mapping interattivo: slider GUI, coordinate mouse dinamiche e ingresso microfonico tramite Web Audio API (<span class="cite-tag">[PRJ-004]</span>).
+                  </div>
+                </div>
+              </li>
+
+              <li class="action-item">
+                <div class="action-number">5</div>
+                <div class="action-content">
+                  <div class="action-title">Pipeline di Esportazione Vettoriale Pulita (toSVG)</div>
+                  <div class="action-desc">
+                    Integrazione del compilatore di percorsi vettoriali per consentire all'utente di scaricare il risultato come file SVG puro pronto per la stampa o l'incisione.
+                  </div>
+                </div>
+              </li>
+
+              <li class="action-item">
+                <div class="action-number">6</div>
+                <div class="action-content">
+                  <div class="action-title">UI Laboratoriale secondo i Criteri di Shneiderman</div>
+                  <div class="action-desc">
+                    Progettazione dell'interfaccia utente laboratoriale seguendo i criteri di Ben Shneiderman (<span class="cite-tag">[ACA-004]</span>): 
+                    controlli visibili, canvas reattivo e console numerica dei parametri.
+                  </div>
+                </div>
+              </li>
+
+              <li class="action-item">
+                <div class="action-number">7</div>
+                <div class="action-content">
+                  <div class="action-title">Contestualizzazione Teorica Dialogica nel Prototipo</div>
+                  <div class="action-desc">
+                    Integrazione di estratti e dialoghi critici tra Lussu, Weingart, Carson, Flusser e le linee guida WCAG all'interno dell'esperienza web.
+                  </div>
+                </div>
+              </li>
+
+              <li class="action-item">
+                <div class="action-number">8</div>
+                <div class="action-content">
+                  <div class="action-title">Audit Prestazionale Google Lighthouse &amp; Test Mobile</div>
+                  <div class="action-desc">
+                    Verifica del mantenimento di 60fps fluidi su dispositivi mobili e bilanciamento dell'accessibilità con modalità ad alto contrasto commutabile.
+                  </div>
+                </div>
+              </li>
+
+              <li class="action-item">
+                <div class="action-number">9</div>
+                <div class="action-content">
+                  <div class="action-title">Protocollo di User Testing Qualitativo (ISIA)</div>
+                  <div class="action-desc">
+                    Conduzione di sessioni di test con 5 designer/studenti ISIA per valutare la chiarezza dell'interfaccia, l'usabilità del tool e la ricezione del manifesto.
+                  </div>
+                </div>
+              </li>
+
+              <li class="action-item">
+                <div class="action-number">10</div>
+                <div class="action-content">
+                  <div class="action-title">Consolidamento Relazione di Tesi (Parte A) &amp; Matrice RQ</div>
+                  <div class="action-desc">
+                    Completamento della monografia scritta, integrazione della matrice di copertura delle Research Questions e documentazione del prototipo RtD.
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </section>
+
+        </article>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col-thesis">
+          <div class="footer-thesis-title">Tipografia come Forma &amp; Tool come Atto Progettuale</div>
+          <p class="footer-thesis-desc">
+            Tesi magistrale in Design della Comunicazione &bull; ISIA 2026.<br>
+            Candidato: <strong>Matteo Borghese</strong>.<br>
+            Sito statico: HTML, CSS e JavaScript, senza framework.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-links-title">Mappa del Sito</div>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home &bull; Dashboard</a></li>
+            <li><a href="sources.html" class="footer-link">Archivio Fonti (Filtri &amp; Schede)</a></li>
+            <li><a href="synthesis.html" class="footer-link">Sintesi dello Stato dell'Arte</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-links-title">Dati &amp; Risorse</div>
+          <ul class="footer-links-list">
+            <li><a href="./data/database_v2.json" target="_blank" class="footer-link">database_v2.json</a></li>
+            <li><a href="./data/STATE_OF_THE_ART.md" target="_blank" class="footer-link">Sintesi in Markdown</a></li>
+            <li><a href="sources.html?thread=ENTRAMBI" class="footer-link">Fonti su entrambi i filoni</a></li>
+            <li><a href="sources.html?priority=PRIMARIA" class="footer-link">Solo fonti primarie</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Matteo Borghese &bull; ISIA Tesi di Laurea Magistrale</div>
+        <div>Metodologia Research-through-Design (RtD) &bull; Archivio Statico Locale</div>
+      </div>
+    </div>
+  </footer>
+<script src="version-switch.js"></script>
+  <script src="app.js"></script>
+  <script src="swiss-switch.js"></script>
+</body>
+</html>
